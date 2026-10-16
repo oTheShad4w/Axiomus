@@ -9059,8 +9059,13 @@ function E.travel(dest, near)
 		if not root then return false end
 		local d = dest - root.Position
 		if Vector3.new(d.X, 0, d.Z).Magnitude <= near and math.abs(d.Y) < 10 then return true end
-		local mover = (E.WK.natural or (Options.TravelMode and Options.TravelMode.Value == "Walk")) and E.WK.walkTo or E.WK.tweenTo
-		if not mover(dest, near) and E.WK.lastUnreachable then return false end
+		local ok
+		if E.WK.natural or (Options.TravelMode and Options.TravelMode.Value == "Jump") then
+			ok = E.WK.airTo(dest, math.max(near, 5), 8)
+		else
+			ok = E.WK.tweenTo(dest, near)
+		end
+		if not ok and E.WK.lastUnreachable then return false end
 	end
 	root = getRoot()
 	if not root then return false end
@@ -9133,6 +9138,27 @@ if M.SignalFunction and M.SignalFunction.ToServer then
 		end
 		return origSF(name, ...)
 	end
+end
+if M.SignalEvent and M.SignalEvent.ToServer then
+	env.__AxiomOwOrigSE = env.__AxiomOwOrigSE or M.SignalEvent.ToServer
+	local origSE = env.__AxiomOwOrigSE
+	M.SignalEvent.ToServer = function(name, a, ...)
+		if name == "Swim" and a == "DrownDamage" and Options.InfBreath and Options.InfBreath.Value then return end
+		return origSE(name, a, ...)
+	end
+end
+E.breathTable = nil
+function E.keepBreath()
+	local t = E.breathTable
+	if not (t and rawget(t, "Breath") ~= nil) then
+		E.breathTable = nil
+		if not filtergc or os.clock() - (E.breathScanAt or 0) < 5 then return end
+		E.breathScanAt = os.clock()
+		local ok, found = pcall(filtergc, "table", {Keys = {"Breath", "Drowning"}}, true)
+		if ok and type(found) == "table" then E.breathTable = found end
+		t = E.breathTable
+	end
+	if t then t.Breath, t.Drowning = 1, false end
 end
 function E.setSunImmunity(on)
 	if on and env.__AxiomOwOrigSF then task.spawn(pcall, env.__AxiomOwOrigSF, "SunDamage", false) end
@@ -9224,7 +9250,7 @@ function E.collectLoot(radius)
 			end
 		end
 		if not best then break end
-		if bestD > bestP.MaxActivationDistance - 1 then (E.WK.natural and E.WK.walkTo or E.WK.tweenTo)(best.Position, math.max(bestP.MaxActivationDistance - 3, 2)) end
+		if bestD > bestP.MaxActivationDistance - 1 then (E.WK.natural and E.WK.airTo or E.WK.tweenTo)(best.Position, math.max(bestP.MaxActivationDistance - 3, 2)) end
 		root = getRoot()
 		for _, part in ipairs(CS:GetTagged(E.lootTag)) do
 			local pr = part:IsA("BasePart") and part:FindFirstChildWhichIsA("ProximityPrompt", true)
@@ -9424,7 +9450,9 @@ function HR.travel(dest)
 	E.blockInput(true)
 	E.setNoclip(true, "horse")
 	local reached = HR.drive(dest, token)
+	E.setNoclip(true, "walk")
 	E.setNoclip(false, "horse")
+	if E.WK then E.WK.settle() end
 	E.blockInput(false)
 	E.moving = false
 	E.flyStatus = nil
@@ -9509,10 +9537,26 @@ function WK.noSwim(root)
 		if c:IsA("Constraint") and c.Enabled then c.Enabled = false end
 	end
 end
+function WK.waterTop(pos)
+	local top
+	for _, p in ipairs(game:GetService("CollectionService"):GetTagged("SwimParts")) do
+		if p:IsA("BasePart") then
+			local lp = p.CFrame:PointToObjectSpace(pos)
+			if math.abs(lp.X) <= p.Size.X / 2 and math.abs(lp.Z) <= p.Size.Z / 2 then
+				local y = (p.CFrame * CFrame.new(0, p.Size.Y / 2, 0)).Position.Y
+				if not top or y > top then top = y end
+			end
+		end
+	end
+	return top
+end
 function WK.groundAt(pos)
 	WK.setFilter()
 	local hit = workspace:Raycast(pos + Vector3.new(0, 120, 0), Vector3.new(0, -300, 0), WK.rayParams)
-	return hit and hit.Position.Y or nil
+	local g = hit and hit.Position.Y or nil
+	local w = WK.waterTop(pos)
+	if w and (not g or w > g) then g = w + 1 end
+	return g
 end
 function WK.tweenTo(target, near)
 	near = near or 5
@@ -9554,7 +9598,7 @@ function WK.tweenTo(target, near)
 			if WK.backs == 1 then WK.tweenSpeed = 22 end
 			if WK.backs >= 2 then
 				WK.natural = true
-				dlog("warn", "Pulled back again · switching to running with dashes and jumps")
+				dlog("warn", "Pulled back again · switching to jumps and dashes")
 				done = true
 				return
 			end
@@ -9588,7 +9632,7 @@ function WK.tweenTo(target, near)
 		hum:Move(Vector3.zero, false)
 	end
 	WK.walking = false
-	WK.settle()
+	WK.settle(result)
 	if token == E.moveToken then
 		E.moving = false
 		E.flyStatus = nil
@@ -9614,6 +9658,7 @@ function WK.airTo(target, near, minAlt)
 	end)
 	local started, limit = os.clock(), (target - r0.Position).Magnitude / 10 + 40
 	local result = false
+	WK.airGround = nil
 	WK.settleGen += 1
 	E.setNoclip(true, "walk")
 	while token == E.moveToken and os.clock() - started < limit do
@@ -9629,7 +9674,18 @@ function WK.airTo(target, near, minAlt)
 		WK.dir = dir
 		WK.setFilter()
 		local gh = workspace:Raycast(pos, Vector3.new(0, -400, 0), WK.rayParams)
-		local g = gh and gh.Position.Y or (pos.Y - 400)
+		if gh then WK.airGround = math.max(gh.Position.Y, (WK.airGround or gh.Position.Y) - 40) end
+		local g = gh and gh.Position.Y or (WK.airGround or pos.Y - 10)
+		local wt = WK.waterTop(pos)
+		if wt and wt + 1 > g then g = wt + 1 end
+		local fdir = Vector3.new(target.X - pos.X, 0, target.Z - pos.Z)
+		if fdir.Magnitude > 1 then
+			fdir = fdir.Unit
+			for _, ahead in ipairs({12, 25}) do
+				local ga = WK.groundAt(pos + fdir * ahead)
+				if ga and ga > g then g = ga end
+			end
+		end
 		local alt = pos.Y - g
 		local landing = flat.Magnitude < near * 2.5
 		local v = root.AssemblyLinearVelocity
@@ -9640,6 +9696,14 @@ function WK.airTo(target, near, minAlt)
 				WK.jump(hum, true)
 			end
 			if os.clock() - WK.lastDash > 0.9 then WK.dash(dir) end
+			E.setNoclip(true, "walk")
+		else
+			if pos.Y < target.Y - 2 then
+				E.setNoclip(true, "walk")
+				if v.Y < 2 then WK.jump(hum, true) end
+			else
+				E.setNoclip(false, "walk")
+			end
 		end
 		E.flyStatus = string.format("air · %dm left · %d up", math.floor(flat.Magnitude), math.floor(alt))
 		task.wait(0.06)
@@ -9649,7 +9713,7 @@ function WK.airTo(target, near, minAlt)
 	pcall(function() RunService:UnbindFromRenderStep("AxiomWalk") end)
 	local hum = getHum()
 	if hum then hum:Move(Vector3.zero, false) end
-	WK.settle()
+	WK.settle(result)
 	if token == E.moveToken then
 		E.moving = false
 		E.flyStatus = nil
@@ -9707,9 +9771,10 @@ function WK.noteFree(root)
 	if not WK.insideNow(root) then WK.lastFree = root.Position end
 end
 WK.settleGen = 0
-function WK.settle()
+function WK.settle(success)
 	WK.settleGen += 1
 	local gen = WK.settleGen
+	if success then E.setNoclip(false, "walk") return end
 	task.spawn(function()
 		local t0 = os.clock()
 		local pushing = false
@@ -9865,7 +9930,7 @@ function WK.walkTo(target, near)
 		if WK.safeHere(root, hum) then safe = root.Position end
 		local targetLow = d.Y < -12
 		local fellThrough = safe and not targetLow and root.Position.Y < safe.Y - 6 and WK.floorAbove(root, 25)
-		local void = safe and inAir and v.Y < -20 and not WK.groundBelow(root, 90)
+		local void = safe and inAir and v.Y < -20 and not WK.groundBelow(root, 800)
 		if fellThrough or void then
 			if os.clock() - (WK.lastFallLog or 0) > 10 then
 				WK.lastFallLog = os.clock()
@@ -9913,7 +9978,7 @@ function WK.walkTo(target, near)
 	pcall(function() RunService:UnbindFromRenderStep("AxiomWalk") end)
 	local hum = getHum()
 	if hum then hum:Move(Vector3.zero, false) end
-	WK.settle()
+	WK.settle(result)
 	if token == E.moveToken then
 		E.moving = false
 		E.flyStatus = nil
@@ -10308,7 +10373,12 @@ function Q.click(holder)
 	end
 	return fired
 end
+function Q.unpin()
+	if Q.pin then Q.pin:Disconnect() Q.pin = nil end
+	if E.noclipSrc.talk then E.setNoclip(false, "talk") end
+end
 function Q.closeDialogue()
+	task.delay(0.8, Q.unpin)
 	for _ = 1, 4 do
 		local bh, df = Q.buttons()
 		if not df then return true end
@@ -10340,6 +10410,25 @@ function Q.talk(npcName)
 	local root = getRoot()
 	if root and (root.Position - at).Magnitude > math.max(pr.MaxActivationDistance - 2, 4) then
 		E.travel(at + Vector3.new(0, 1, 0), math.max(pr.MaxActivationDistance - 3, 3))
+	end
+	Q.unpin()
+	root = getRoot()
+	if root and ((root.Position - at).Magnitude > math.max(pr.MaxActivationDistance - 1.5, 3) or at.Y - root.Position.Y > 4) then
+		local off = Vector3.new(root.Position.X - at.X, 0, root.Position.Z - at.Z)
+		off = off.Magnitude > 0.1 and off.Unit * math.min(3, pr.MaxActivationDistance - 2) or Vector3.new(2, 0, 0)
+		E.WK.settleGen += 1
+		E.setNoclip(true, "talk")
+		E.moveToken += 1
+		E.flyTo(at + off, E.moveToken, 14)
+	end
+	root = getRoot()
+	if root and E.noclipSrc.talk then
+		local hold = root.CFrame
+		Q.pin = RunService.Heartbeat:Connect(function()
+			local rr = getRoot()
+			if rr then rr.AssemblyLinearVelocity = Vector3.zero rr.CFrame = hold end
+		end)
+		task.delay(20, Q.unpin)
 	end
 	for _ = 1, 2 do
 		E.fire(pr)
@@ -10898,6 +10987,7 @@ do
 	toggle(c, "AntiStun", "Anti Stun", true)
 	toggle(c, "AntiRagdoll", "Anti Ragdoll", true)
 	toggle(c, "AntiKnockback", "Anti Knockback", true)
+	toggle(c, "InfBreath", "Breathe underwater", true)
 end
 do
 	local c = card(CombatTab, "Defense", {side = 2})
@@ -11495,7 +11585,7 @@ function Wd.studyProps()
 	for _, j in ipairs(CS:GetTagged("StudyProp")) do
 		local item = j:GetAttribute("Item")
 		local pr = j:FindFirstChildWhichIsA("ProximityPrompt", true)
-		if type(item) == "string" and pr and not j:GetAttribute("Locked") and Wd.itemCount(item .. " Schematic") == 0 and (Wd.studyTried[j] or 0) < 3 then
+		if type(item) == "string" and not j:GetAttribute("Locked") and Wd.itemCount(item .. " Schematic") == 0 and (Wd.studyTried[j] or 0) < 3 then
 			table.insert(out, {model = j, prompt = pr, item = item})
 		end
 	end
@@ -11515,9 +11605,15 @@ Farms.add({name = "Schematics", flag = "SchematicFarm", priority = 8,
 		C.disengage()
 		Wd.studyTried[s.model] = (Wd.studyTried[s.model] or 0) + 1
 		C.status = "studying " .. s.item
-		local at = E.promptPos(s.prompt) or posOf(s.model)
-		local reach = math.max((s.prompt.MaxActivationDistance or 8) - 2, 3)
+		local at = (s.prompt and E.promptPos(s.prompt)) or posOf(s.model)
 		E.travel(Vector3.new(at.X, at.Y, at.Z), 6)
+		if not (s.prompt and s.prompt.Parent) then
+			local t0 = os.clock()
+			repeat task.wait(0.3) s.prompt = s.model:FindFirstChildWhichIsA("ProximityPrompt", true) until s.prompt or os.clock() - t0 > 6
+			if not s.prompt then dlog("warn", "No study prompt at " .. s.item) return end
+			at = E.promptPos(s.prompt) or at
+		end
+		local reach = math.max((s.prompt.MaxActivationDistance or 8) - 2, 3)
 		local root = getRoot()
 		if root and (root.Position - at).Magnitude > reach then
 			E.moveToken += 1
@@ -11762,6 +11858,73 @@ task.spawn(function()
 		end
 		for m in pairs(V.items) do if not seen[m] or not m.Parent then V.clear(m) end end
 		task.wait(0.3)
+	end
+end)
+
+do
+	local c = card(VisualTab, "World ESP", {side = 2})
+	toggle(c, "LilyESP", "Spider Lilies", false)
+	toggle(c, "SealedESP", "Sealed Chests (tier)", false)
+end
+V.world = {}
+V.TIER_COL = {T1 = Color3.fromRGB(120, 220, 120), T2 = Color3.fromRGB(90, 160, 255), T3 = Color3.fromRGB(200, 110, 255)}
+function V.mark(key, adornee, text, col)
+	local it = V.world[key]
+	if not it or not it.bb.Parent then
+		it = {}
+		it.bb = make("BillboardGui", {Name = "AxiomESP", Adornee = adornee, Size = UDim2.fromOffset(170, 34), StudsOffset = Vector3.new(0, 3, 0), AlwaysOnTop = true, LightInfluence = 0, MaxDistance = 5000})
+		it.lbl = label({Parent = it.bb, Size = UDim2.fromScale(1, 1), Font = FONT_B, TextSize = 12, TextXAlignment = Enum.TextXAlignment.Center, RichText = true, TextStrokeTransparency = 0.4})
+		it.hl = make("Highlight", {Name = "AxiomCham", Adornee = adornee, FillTransparency = 0.5, OutlineTransparency = 0, DepthMode = Enum.HighlightDepthMode.AlwaysOnTop})
+		pcall(function() it.bb.Parent = gui it.hl.Parent = gui end)
+		V.world[key] = it
+	end
+	it.lbl.Text, it.lbl.TextColor3 = text, col
+	it.hl.FillColor, it.hl.OutlineColor = col, col
+	it.seen = true
+end
+table.insert(UI.cleanups, function() for k, it in pairs(V.world) do it.bb:Destroy() it.hl:Destroy() V.world[k] = nil end end)
+task.spawn(function()
+	local lilyAt = 0
+	local lilies = {}
+	while alive do
+		for _, it in pairs(V.world) do it.seen = false end
+		local root = getRoot()
+		if root and Options.LilyESP.Value then
+			if os.clock() - lilyAt > 2 then
+				lilyAt = os.clock()
+				lilies = {}
+				for _, d in ipairs(workspace:GetDescendants()) do
+					if d:IsA("ProximityPrompt") then
+						local m = d:FindFirstAncestorOfClass("Model")
+						local txt = (d.ObjectText .. " " .. d.ActionText .. " " .. (d.Parent and d.Parent.Name or "") .. " " .. (m and m.Name or "")):lower()
+						if txt:find("lily") or txt:find("lilies") then table.insert(lilies, {prompt = d, holder = m or d.Parent}) end
+					end
+				end
+			end
+			for _, l in ipairs(lilies) do
+				if l.prompt.Parent and l.holder and l.holder.Parent then
+					local p = E.promptPos(l.prompt)
+					local dist = p and (p - root.Position).Magnitude or 0
+					V.mark(l.prompt, l.holder, string.format("Spider Lily\n<font size=\"11\">%dm</font>", dist), Color3.fromRGB(255, 70, 90))
+				end
+			end
+		end
+		if root and Options.SealedESP.Value then
+			for _, chest in ipairs(workspace:FindFirstChild("Chests") and workspace.Chests:GetChildren() or {}) do
+				local id = tostring(chest:GetAttribute("ChestId") or chest.Name)
+				local tier = id:match("(T%d)")
+				if tier and id:find("Sealed") and chest:GetAttribute("IsOpen") ~= true then
+					local p = posOf(chest)
+					local dist = p and (p - root.Position).Magnitude or 0
+					local state = chest:GetAttribute("ChestState") == "Locked" and "locked" or "open it"
+					V.mark(chest, chest, string.format("Sealed Chest %s\n<font size=\"11\">%s · %dm</font>", tier, state, dist), V.TIER_COL[tier] or T.Accent)
+				end
+			end
+		end
+		for k, it in pairs(V.world) do
+			if not it.seen then it.bb:Destroy() it.hl:Destroy() V.world[k] = nil end
+		end
+		task.wait(0.5)
 	end
 end)
 
@@ -12248,9 +12411,11 @@ function DM.findMuzan()
 	local m = an and an:FindFirstChild("Muzan")
 	if m and (m:FindFirstChild("HumanoidRootPart") or m.PrimaryPart) then return m end
 	for _, reg in ipairs(deb and deb:FindFirstChild("Regions") and deb.Regions:GetChildren() or {}) do
-		local a = reg:FindFirstChild("ActiveNpcs")
-		local x = a and a:FindFirstChild("Muzan")
-		if x then return x end
+		for _, folder in ipairs({"ActiveNpcs", "StationaryNpcs"}) do
+			local a = reg:FindFirstChild(folder)
+			local x = a and a:FindFirstChild("Muzan")
+			if x and x:FindFirstChild("HumanoidRootPart") then return x end
+		end
 	end
 	return nil
 end
@@ -12279,9 +12444,16 @@ function DM.clickThrough(wanted)
 			end
 		end
 		if pick then Q.click(pick) task.wait(1.2) return true end
-		if not first then return false end
-		Q.click(first)
-		task.wait(1)
+		if not first then
+			local _, df = Q.buttons()
+			local cd = df and df:FindFirstChild("Actual") and df.Actual:FindFirstChild("ClickDetector")
+			if not cd then return false end
+			Q.click(cd)
+			task.wait(1.3)
+		else
+			Q.click(first)
+			task.wait(1)
+		end
 	end
 	return false
 end
@@ -12339,6 +12511,15 @@ Farms.add({name = "Become demon", flag = "AutoDemon", priority = 3,
 			end
 			return
 		end
+		if DM.quest() and DM.inLair() then
+			C.disengage()
+			DM.note("leaving the lair with the bell")
+			DM.useItem("Biwa Bell", 0.3)
+			local t0 = os.clock()
+			repeat task.wait(0.5) until not DM.inLair() or os.clock() - t0 > 10
+			task.wait(2)
+			return
+		end
 		if DM.quest() then
 			local lv, lmax = DM.taskValue("Spider Lilies")
 			if lv < lmax then
@@ -12353,8 +12534,20 @@ Farms.add({name = "Become demon", flag = "AutoDemon", priority = 3,
 				end
 				C.disengage()
 				DM.note(string.format("picking Spider Lilies %d/%d", lv, lmax))
-				E.usePrompt(list[1], 0.6)
-				task.wait(0.6)
+				local pr = list[1]
+				local at = E.promptPos(pr)
+				if at then E.travel(at, math.max((pr.MaxActivationDistance or 8) - 3, 2)) end
+				E.WK.settleGen += 1
+				E.setNoclip(true, "walk")
+				local r = getRoot()
+				if r and at and (r.Position - at).Magnitude > (pr.MaxActivationDistance or 8) - 1 then
+					E.moveToken += 1
+					E.flyTo(at, E.moveToken, 14)
+				end
+				E.holdPrompt(pr, 0.6)
+				task.wait(0.8)
+				if pr.Parent and pr.Enabled then pcall(fireproximityprompt, pr) task.wait(0.6) end
+				E.WK.settle()
 				return
 			end
 			C.disengage()
@@ -12368,7 +12561,8 @@ Farms.add({name = "Become demon", flag = "AutoDemon", priority = 3,
 				task.wait(2)
 				return
 			end
-			if not m or not root or (mp.Position - root.Position).Magnitude > 25 then
+			local flatD = mp and root and Vector3.new(mp.Position.X - root.Position.X, 0, mp.Position.Z - root.Position.Z).Magnitude or 1e9
+			if not m or not root or flatD > 40 then
 				DM.note("going to Dr. Higoshima")
 				E.travel(mp and mp.Position or DM.HIGOSHIMA, 10)
 				return
@@ -12379,10 +12573,32 @@ Farms.add({name = "Become demon", flag = "AutoDemon", priority = 3,
 				if d:IsA("ProximityPrompt") and d.Enabled then pr = d break end
 			end
 			if pr then
-				dlog("world", "Doctor prompt: " .. tostring(pr.ActionText) .. " / " .. tostring(pr.ObjectText))
-				E.usePrompt(pr, 0.6)
-				DM.carriedSince = os.clock()
-				task.wait(1.5)
+				local at = mp.Position + Vector3.new(0, 1, 0)
+				E.WK.settleGen += 1
+				E.setNoclip(true, "walk")
+				E.moveToken += 1
+				E.moving = true
+				local off = Vector3.new(root.Position.X - at.X, 0, root.Position.Z - at.Z)
+				off = off.Magnitude > 0.1 and off.Unit * 3 or Vector3.new(3, 0, 0)
+				E.flyTo(at + off, E.moveToken, 14)
+				local hold = getRoot().CFrame
+				local pin = RunService.Heartbeat:Connect(function()
+					local rr = getRoot()
+					if rr then rr.AssemblyLinearVelocity = Vector3.zero rr.CFrame = hold end
+				end)
+				DM.note("capturing Dr. Higoshima (hold 5s)")
+				E.holdPrompt(pr, 0.6)
+				task.wait(0.5)
+				pin:Disconnect()
+				E.moving = false
+				DM.carriedSince = os.clock() - 2
+				local mp2 = m:FindFirstChild("HumanoidRootPart") or m.PrimaryPart
+				local r2 = getRoot()
+				if mp2 and r2 and (mp2.Position - r2.Position).Magnitude < 8 then
+					dlog("world", "Got Dr. Higoshima · flying to the safe zone")
+					DM.note("carrying Dr. Higoshima · staying in the air")
+					E.WK.airTo(DM.SAFE, 8, 26)
+				end
 			else
 				DM.talkTo(m)
 				DM.clickThrough("carry")
@@ -12428,6 +12644,12 @@ Farms.add({name = "Become demon", flag = "AutoDemon", priority = 3,
 		if not m then
 			DM.routeIdx = DM.nextRoute()
 			local spot = DM.ROUTES[DM.routeIdx]
+			local hum0 = getHum()
+			if spot.Z < -2400 and hum0 and hum0.Health / hum0.MaxHealth < 0.7 then
+				DM.note("healing before the cold valley")
+				C.heal("instant")
+				return
+			end
 			DM.note("night · looking for Muzan · spot " .. DM.routeIdx .. "/" .. #DM.ROUTES)
 			C.disengage()
 			local watching = true
@@ -12440,7 +12662,12 @@ Farms.add({name = "Become demon", flag = "AutoDemon", priority = 3,
 			E.travel(spot, 25)
 			watching = false
 			local t0 = os.clock()
-			repeat task.wait(1) m = DM.findMuzan() until m or os.clock() - t0 > 8 or not DM.night()
+			repeat
+				task.wait(1)
+				m = DM.findMuzan()
+				local hh = getHum()
+				if hh and hh.Health / hh.MaxHealth < 0.5 then break end
+			until m or os.clock() - t0 > 8 or not DM.night()
 			DM.visited[DM.routeIdx] = true
 			if not m then return end
 			dlog("world", "Found Muzan near spot " .. DM.routeIdx)
@@ -13038,6 +13265,14 @@ connect(RunService.Heartbeat, function()
 	local t = E.target
 	if t and (t.hum.Health <= 0 or not t.model.Parent) then C.countKill(t) end
 end)
+connect(player.CharacterAdded, function() E.breathTable = nil end)
+task.spawn(function()
+	while alive do
+		local ch = getChar()
+		if Options.InfBreath.Value and ch and (ch:GetAttribute("SwimState") or 0) ~= 0 then pcall(E.keepBreath) end
+		task.wait(0.25)
+	end
+end)
 do
 	local MOVERS = {BodyVelocity = true, BodyPosition = true, BodyThrust = true, BodyForce = true, BodyGyro = false, LinearVelocity = true, VectorForce = true}
 	local function hookChar(char)
@@ -13326,6 +13561,7 @@ function app.Destroy()
 	if M.InputHandler and env.__AxiomOwOrigIsDown then M.InputHandler.IsDown = env.__AxiomOwOrigIsDown end
 	if M.RunHandler and env.__AxiomOwOrigShiftLock then M.RunHandler.SetShiftLock = env.__AxiomOwOrigShiftLock end
 	if M.SignalFunction and env.__AxiomOwOrigSF then M.SignalFunction.ToServer = env.__AxiomOwOrigSF end
+	if M.SignalEvent and env.__AxiomOwOrigSE then M.SignalEvent.ToServer = env.__AxiomOwOrigSE end
 	pcall(function() for _, f in ipairs(Farms.list) do if f.cleanup then f.cleanup() end end end)
 	E.stopMoving()
 	Overlay.set(false)
