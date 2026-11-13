@@ -13,7 +13,7 @@ getgenv().SlayersConfig = {
 	LoopRuns = true,
 	AutoShop = true,
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/loader.lua?t=" .. tick()))()
 ```
 
 ## Murder Mystery 2
@@ -23,13 +23,13 @@ getgenv().MM2Config = {
 	AutoFarm = true,
 	AltMode = false,
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/loader.lua?t=" .. tick()))()
 ```
 
 ## Criminality
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/loader.lua?t=" .. tick()))()
 ```
 
 You need a key to run it. The config block is optional, without it the hub uses its saved settings.
