@@ -80,7 +80,7 @@ local function corner(r) return make("UICorner", {CornerRadius = UDim.new(0, r)}
 local function tw(o, p, t, s) local x = TweenService:Create(o, TweenInfo.new(t or 0.35, s or Enum.EasingStyle.Quint, Enum.EasingDirection.Out), p) x:Play() return x end
 
 local function run(m)
-	local okH, hex = pcall(function() return game:HttpGet(DATA_URL) end)
+	local okH, hex = pcall(function() return game:HttpGet(DATA_URL .. "?t=" .. tostring(os.time()) .. tostring(math.random(1000, 9999))) end)
 	if not okH or type(hex) ~= "string" or #hex < 100 then return false, "Couldn't download the script" end
 	return true, hex
 end
