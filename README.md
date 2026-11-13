@@ -1,6 +1,6 @@
 # AxiomHUB
 
-by kingping77 · Slayers 2 (menu + Ouwigahara) · Murder Mystery 2
+by kingping77 · Slayers 2 (menu + Ouwigahara) · Murder Mystery 2 · Criminality
 
 ## Slayers 2
 
@@ -23,6 +23,12 @@ getgenv().MM2Config = {
 	AutoFarm = true,
 	AltMode = false,
 }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/loader.lua"))()
+```
+
+## Criminality
+
+```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/loader.lua"))()
 ```
 
