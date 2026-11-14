@@ -140,9 +140,10 @@ btn.MouseLeave:Connect(function() tw(btn, {BackgroundColor3 = ACCENT}, 0.15) end
 
 local ui = {gui = gui, card = card, fade = fade, bar = bar, status = status}
 local subtitle = card:FindFirstChildWhichIsA("TextLabel")
-local DIRECT = {[4588604953] = true, [8343259840] = true, [142823291] = true}
+local DIRECT = {[4588604953] = true, [8343259840] = true, [15169303036] = true, [15169306359] = true, [15169310267] = true, [15169316384] = true, [142823291] = true}
+local DIRECT_GAMES = {[1494262959] = true} -- Criminality (all modes)
 local function choose(m)
-	if DIRECT[game.PlaceId] then
+	if DIRECT[game.PlaceId] or DIRECT_GAMES[game.GameId] then
 		box.Visible, btn.Visible = false, false
 		status.TextColor3 = ACCENT
 		start(m, ui)
