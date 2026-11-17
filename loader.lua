@@ -1,39 +1,14 @@
 local DATA_URL = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/AxiomHUB.dat"
 local ASSET_URL = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/assets/"
-local DISCORD = ""
+local SERVER = "https://axiomhub-keys.kingofdarknesscer757.workers.dev"
+local DISCORD = "https://discord.gg/KzsMYUxVyd"
 local KEY_FILE = "AxiomHUB/key.txt"
-local KEY_API = "https://axiomhub-keys.kingofdarknesscer757.workers.dev/check"
 
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
 local Lighting = game:GetService("Lighting")
 local player = Players.LocalPlayer
-
-local E = {{3736738291,3525837038,1923790262,3181152228,3782252785},{421195296,2075637157,3744794577,335752371,1290734122},{2073533308,3115072913,489590557,3524834663,2465506958},{2966045332,1119845657,3829256069,755758303,2078795062},{3515627358,2514098915,895014235,4201571109,2793587200},{1906366003,4196028462,1519969398,2511263524,3376605361},{2034502785,894494452,2480035208,1524918070,67649871},{4256498710,1182985739,3825228067,758542205,2010797608},{1191067307,1644404022,3263242910,230102076,1364931993},{159267697,3422273732,2440658840,1481591238,44264287},{2513033315,2211869118,626312710,3965907124,2995702017},{3215653163,1656852406,3259184158,225773244,1368991513},{2573179016,2259238141,539725481,3911039995,2951844322},{38989329,1964696868,3549975352,447637094,1145192511},{2046172210,212005495,2854243823,1662417585,905598588},{3433659580,3941666769,1282650589,2235926183,3819550542},{2319553488,3370422197,1785082337,2739930947,4189856826},{358077064,271623933,2998069417,2072305147,560528354},{975365970,2068340823,3284851471,150792529,1276167260},{539864606,3405882019,2474843803,1488268261,72944192},{1416805852,2558108849,989533949,4090354759,2971733422},{1284168829,603433184,2306147956,1078145322,313458883},{1875599156,2532751609,812911269,4181868543,2813206550},{1040121610,1094777983,3921835991,787774633,1914196068},{378911894,1519435403,3759278755,690241533,1942497192}}
-
-local function fnv(s)
-	local h = 2166136261
-	for i = 1, #s do
-		h = bit32.bxor(h, string.byte(s, i))
-		h = (bit32.lshift(h, 24) + h * 403) % 4294967296
-	end
-	return h
-end
-
-local function unwrap(key)
-	key = (key or ""):upper():gsub("%s", "")
-	local c = fnv(key .. "|check")
-	for _, e in ipairs(E) do
-		if e[1] == c then
-			local m = {}
-			for i = 1, 4 do m[i] = bit32.bxor(e[i + 1], fnv(key .. "|" .. i)) end
-			return m, key
-		end
-	end
-	return nil
-end
-
 local function decrypt(hex, m, progress)
 	local n = #hex // 2
 	local hb = buffer.fromstring(hex)
@@ -78,30 +53,48 @@ local function hwid()
 	return "uid-" .. tostring(player.UserId)
 end
 
-local function remote(key)
-	local hw = hwid()
-	local body
-	local req = (syn and syn.request) or request or http_request or (http and http.request)
-	if req then
-		local ok, r = pcall(req, {Url = KEY_API, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = HttpService:JSONEncode({key = key, hwid = hw})})
-		if ok and type(r) == "table" and type(r.Body) == "string" and r.Body:sub(1, 1) == "{" then body = r.Body end
-	end
-	if not body then
-		local ok, r = pcall(function() return game:HttpGet(KEY_API .. "?key=" .. HttpService:UrlEncode(key) .. "&hwid=" .. HttpService:UrlEncode(hw)) end)
-		if ok and type(r) == "string" and r:sub(1, 1) == "{" then body = r end
-	end
-	if not body then return nil end
-	local ok, d = pcall(HttpService.JSONDecode, HttpService, body)
-	return ok and type(d) == "table" and d or nil
-end
+local ERRORS = {
+	invalid = "Invalid key",
+	banned = "This key was disabled",
+	hwid = "This key is locked to another device. Ask for an HWID reset on Discord",
+	expired = "This key has expired. Get a new one on Discord",
+}
 
+local function imul(a, b)
+	local a16 = bit32.rshift(a, 16)
+	local a00 = bit32.band(a, 0xffff)
+	local r = a00 * b
+	r = r + bit32.lshift(bit32.band(a16 * b, 0xffff), 16)
+	return bit32.band(r, 0xffffffff)
+end
+local function fnv1a(s)
+	local h = 2166136261
+	for i = 1, #s do
+		h = bit32.bxor(h, string.byte(s, i))
+		h = imul(h, 16777619)
+	end
+	return h
+end
+local function unwrapMaster(mw, h, k, nonce)
+	local m = {}
+	for i = 1, 4 do
+		m[i] = bit32.bxor(mw[i], fnv1a(h .. "|" .. k .. "|" .. nonce .. "|" .. (i - 1)))
+	end
+	return m
+end
 local function check(key)
-	local legacy = unwrap(key)
-	if legacy then return {ok = true, plan = "life", planName = "Lifetime", exp = 0, now = os.time(), m = legacy} end
-	local d = remote(key)
-	if d and d.ok and type(d.m) == "table" and #d.m == 4 then return d end
-	if d then return nil, tostring(d.error or "Invalid key"), d.code or "invalid" end
-	return nil, "Can't reach the key server, try again"
+	local nk = (key or ""):upper():gsub("%s", "")
+	local h = hwid()
+	local url = SERVER .. "/check?key=" .. HttpService:UrlEncode(nk) .. "&hwid=" .. HttpService:UrlEncode(h) .. "&t=" .. tostring(os.time()) .. tostring(math.random(1000, 9999))
+	local ok, body = pcall(function() return game:HttpGet(url) end)
+	if not ok or type(body) ~= "string" then return nil, "Can't reach the key server" end
+	local ok2, res = pcall(function() return HttpService:JSONDecode(body) end)
+	if not ok2 or type(res) ~= "table" then return nil, "Can't reach the key server" end
+	if not res.ok then return nil, ERRORS[res.code] or res.error or "Invalid key", res.code end
+	if type(res.m) == "table" and res.nonce then
+		res.m = unwrapMaster(res.m, h, nk, res.nonce)
+	end
+	return res
 end
 
 local ACCENT = Color3.fromRGB(124, 92, 255)
@@ -199,7 +192,6 @@ btn.MouseLeave:Connect(function() tw(bscale, {Scale = 1}, 0.2) end)
 
 local getBtn = make("TextButton", {Parent = card, Position = UDim2.fromOffset(X, 216), Size = UDim2.fromOffset(W - X - 26, 36), BackgroundColor3 = EL, BackgroundTransparency = 0.4, Text = "Get a key on Discord", FontFace = FONT_B, TextSize = 13, TextColor3 = SUB, AutoButtonColor = false, BorderSizePixel = 0}, {corner(10)})
 local gstroke = make("UIStroke", {Parent = getBtn, Color = LINE, Thickness = 1})
-if DISCORD == "" then getBtn.Visible = false end
 getBtn.MouseEnter:Connect(function() tw(gstroke, {Color = ACCENT}, 0.2) tw(getBtn, {TextColor3 = TXT}, 0.2) end)
 getBtn.MouseLeave:Connect(function() tw(gstroke, {Color = LINE}, 0.2) tw(getBtn, {TextColor3 = SUB}, 0.2) end)
 
@@ -207,14 +199,8 @@ local barBg = make("Frame", {Parent = card, Position = UDim2.fromOffset(X, 268),
 local bar = make("Frame", {Parent = barBg, Size = UDim2.fromScale(0, 1), BackgroundColor3 = Color3.new(1, 1, 1), BorderSizePixel = 0}, {corner(2)})
 make("UIGradient", {Parent = bar, Color = ColorSequence.new(ACCENT, ACCENT2)})
 local status = make("TextLabel", {Parent = card, Position = UDim2.fromOffset(X, 278), Size = UDim2.fromOffset(W - X - 26, 18), BackgroundTransparency = 1, Text = "", FontFace = FONT, TextSize = 12, TextColor3 = SUB, TextXAlignment = Enum.TextXAlignment.Left})
-make("TextLabel", {Parent = card, Position = UDim2.new(0, X, 1, -30), Size = UDim2.fromOffset(W - X - 26, 16), BackgroundTransparency = 1, Text = "by kingping77", FontFace = FONT, TextSize = 11, TextColor3 = Color3.fromRGB(80, 76, 100), TextXAlignment = Enum.TextXAlignment.Right})
+make("TextLabel", {Parent = card, Position = UDim2.fromOffset(X, H - 30), Size = UDim2.fromOffset(W - X - 26, 16), BackgroundTransparency = 1, Text = "by kingping77", FontFace = FONT, TextSize = 11, TextColor3 = Color3.fromRGB(80, 76, 100), TextXAlignment = Enum.TextXAlignment.Right})
 
-if DISCORD == "" then
-	barBg.Position = UDim2.fromOffset(X, 224)
-	status.Position = UDim2.fromOffset(X, 234)
-	card.Size = UDim2.fromOffset(W, 290)
-	outline.Size = card.Size
-end
 local closeBtn = make("TextButton", {Parent = card, AnchorPoint = Vector2.new(1, 0), Position = UDim2.fromOffset(W - 8, 8), Size = UDim2.fromOffset(22, 22), BackgroundTransparency = 1, Text = "×", FontFace = FONT_B, TextSize = 18, TextColor3 = SUB})
 
 local function say(text, color)
