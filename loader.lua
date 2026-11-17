@@ -2,6 +2,7 @@ local DATA_URL = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/Axio
 local ASSET_URL = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/assets/"
 local DISCORD = ""
 local KEY_FILE = "AxiomHUB/key.txt"
+local KEY_API = "https://axiomhub-keys.kingofdarknesscer757.workers.dev/check"
 
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
@@ -77,10 +78,30 @@ local function hwid()
 	return "uid-" .. tostring(player.UserId)
 end
 
+local function remote(key)
+	local hw = hwid()
+	local body
+	local req = (syn and syn.request) or request or http_request or (http and http.request)
+	if req then
+		local ok, r = pcall(req, {Url = KEY_API, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = HttpService:JSONEncode({key = key, hwid = hw})})
+		if ok and type(r) == "table" and type(r.Body) == "string" and r.Body:sub(1, 1) == "{" then body = r.Body end
+	end
+	if not body then
+		local ok, r = pcall(function() return game:HttpGet(KEY_API .. "?key=" .. HttpService:UrlEncode(key) .. "&hwid=" .. HttpService:UrlEncode(hw)) end)
+		if ok and type(r) == "string" and r:sub(1, 1) == "{" then body = r end
+	end
+	if not body then return nil end
+	local ok, d = pcall(HttpService.JSONDecode, HttpService, body)
+	return ok and type(d) == "table" and d or nil
+end
+
 local function check(key)
-	local m = unwrap(key)
-	if not m then return nil, "Invalid key", "invalid" end
-	return {ok = true, plan = "life", planName = "Lifetime", exp = 0, now = os.time(), m = m}
+	local legacy = unwrap(key)
+	if legacy then return {ok = true, plan = "life", planName = "Lifetime", exp = 0, now = os.time(), m = legacy} end
+	local d = remote(key)
+	if d and d.ok and type(d.m) == "table" and #d.m == 4 then return d end
+	if d then return nil, tostring(d.error or "Invalid key"), d.code or "invalid" end
+	return nil, "Can't reach the key server, try again"
 end
 
 local ACCENT = Color3.fromRGB(124, 92, 255)
