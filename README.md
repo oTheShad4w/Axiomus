@@ -32,4 +32,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/oTheShad4w/Axiomus/ma
 loadstring(game:HttpGet("https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/loader.lua?t=" .. tick()))()
 ```
 
-You need a key to run it. The config block is optional, without it the hub uses its saved settings.
+Free работает сразу, без ключа. Для Premium укажи ключ перед загрузкой:
+
+```lua
+getgenv().script_key = "ТВОЙ-КЛЮЧ"
+```
+
+Ключ выдаёт наш Discord-бот. Config-блок необязателен — без него хаб берёт сохранённые настройки.
