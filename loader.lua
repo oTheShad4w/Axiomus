@@ -1,1 +1,343 @@
-return(function(...)local I={"[+kfir7V=","!2iZ\'A";"!qbY9;g$4s^,b","[vRWzeRsX8JGJnDeN+KHzvRbC1DjHekjirQWHrQINnKGa8KGAvZbPvZmYjReiIDSUrKqqeJGan6HN8KmceKbzeJl=","[IDSUrKqVbAVXVZ3S+L5C16HT+g==","!aJNk(o,i#","!dVol^,.2ARPgVB.)01$bca","[vR1U+g==";"[3Q3Ch0z=","!2u-7H,=Kg","!";"[+Kma+I==","[3kS7v6IG","!Gt$H/,mR(";"!qpH9/go+E!oB]o+";"[vRWzeRsX8JGJnDeN+KHzvRbC1DjHekjirQWHrQINnKGa8KGAvZbPvZmYjReiIDSUrKqqeJGan6HN8zm9v6GaymbL8kWS1g==","[AZGcvDWUrK9=","[3Q3U+0z=","[ekbS+Z+UrZA=","!,S%3@2HEf4,s#","[8KjF+6j4dKaHhPz=";"!qE>Yn)N)UN;OU";"!2AhQ";"[ekm7+Kbz";"[W6mcv6pQA7WprZA=";"[1ZmcvM==","!)N)UN;OU","[AR3i","[ykGUrC5i1DVOWZHcnKGJ+L5c+D3K+DVO1ZlO1DjHVwm9v6GaymbLoCg=","!239a>g`o","!cuq\"Vc!!96","[bZSUeJ54+DYO1KmcVZWUeKmCrZbY";"[DqGQnM==","!)K#WhgE9]r,@","!)K#WhgE$09","!PgV5Fg&m-C","[WKbzIKfU+6pzy6I=","[rO==","!,>5&","!aVU6Mc\\f";"!)F14A";"[rkb7";"[vRWzeRsX8JGJnDeN+KHzvRbC1DjHekjirQWHrQINnKGa8KGAvZbPvZmYjReiIDSUrKqqeJGan6HN8zm9v6GaymbLDK+J+6AN+Zmz","!p0X2Yp76IFgl[DmgkdS,EcO9DXfabig&m-C";"!g&&f],Sg`n,sX","[AKHaeZfH";"[3K+ieCeOv6pU1ZHSrL5Kn6fq+y5a1DjzVZ3HVZwOrQbankbJ","[Ak39I6pSrRHzv6jcAKbJ1kHt+I==","!,S%3@PWDo2g*5";"[IDSUrKqVbAVi1kbJeKHirCpzhRI=";"[WZHceZfShAGJ+ZbJ";"[nkmN+g==","!)K#WhgWT;`g`$[Tg!CGJJtDET)sm,BmA+M!qcl\"K,Sg#lJS";"!q@(g/PD07&,_([-";"[+Kbz+KbN1O==","!)K#WhgE!o<Zs5p0";"!PWDo2g*5";"!,>5k&;/l/","[1RHM+I==";"[y6pc1ZmNnKA=";"!,sg3k;8","!XtD3f","!qE>Yn)G#aVg\"@";"[eKjJvD5zDKaHhI==","!)Kmd\")G#aVg\"&1Ocujj";"!g\"0","[WQ3Sr6A=","!aJNk(P%L","[+Q3irbjtn6fH";"!m2cm.g*DX.;/lQ5aVX]";"[bZSUeJ54+DYOvDsOrZGtvKbYVRWiVZmNr7WF+DVO+ZbKv6jH8C55eKTO+kGJVZmNVwSDyAIOekbc+DIOrK9OWZHcnKGJ+g==";"[PZbk1g==";"!mq8)%o1Bk;a]iU^fN^1Ag!nC5o,%$7E;TXZg\"s7)o^2e.,#scEEcRlWXn\'4";"!g!\"","[W6pqrI==";"!;@ZCM";"!qpqI\'Ego1Gg\"pOEg$QV5g%ql\',sHndPe`bZaVm#DEcsD@,#sE1E;HEdl<","!X8<d1,sX";"!Zd,n6Y!d(6a]eR","[IKGJrkbJAkmYvDbc";"!aV$`1;<r";"[Akbc+DWdrHjMnD1N","!m^bUX,sgC&X^F","!Ia`K";"[1ZHa+I==";"[ekmN+ZGa","!Y!h=\\","[bZGM","!Zs5R4c\\4;5cL^/","!qcS=n;<@bl","[PZGtn6fIrZmp+DV=";"[AkHtvmWHhRI=","[nKGY+I==","[16HY8I==","!m^KmoZ#^","!dVol^,=GNgoBc","[1ZGc1R3Urke=","!YkG_:PZ","[n73HnDWH";"!cL^/","[rkGYvDjtr73Y";"!d=*p7PgI8W";"!q/I<%g\"#s","[bAHP1R3ivKA=";"[eZfSrYpSr6A=";"[rI==","[IkmtvK1Jr7bN+wjirZGJsM==","!cuQde,S9","[e75S1K9=","[I73HnDWH";"!ZV*HO)+`]b,m0";"[I6WKn6pt+6I=";"!qE>YnY!h=\\";"[IkGJ+ZbJAKHX+b5UhZbT","!a7_GZPM]Cp,ZpW1g\"s,XaJu]:bGT!?qb^=u,@","!p0X2Yp76*=,sl<lP?rt$XrKN:Eg(jjXr-7","!bu","[WkGN1w+SnKA=","[y61Nr73HW7bUy6pc+DI=";"!,S%bS","[yRWzew1H1g==","[v6pKn6fU+g==","[IDSUrKqAv6bJ","[eZjSrZM=";"!aVU6Dc\\&W+";"[1ZmCrZA=","[+ZbTnDY=";"!,S%3@YPQB","[bZb91wfSnkbT";"!)K#WhgE$09EqO=iEq0`jX2teuaa[bj","[IKGNrkbt1g==","!;@SA@a6[m";"[nkHzscV=";"[nkmNrkbY","[bDjHeYHY";"!g&&.[";"[bR1H+6p3rk+i";"!@)","[AZHtvJ5pr7bJVR+HeQjUrK9=","[bAWUrPV=";"!g*C%","[P6bYvDba","[AZfSh6bJeM==","!Pe`aZ,sc.QoI";"!oa&gF,_@t6,b";"[nQHz+I==";"!pGHa","!)K#Whg@:lBg!Wg";"!)N)UN;8";"[rkGNnKA=","[eZmUeQs=";"[DqGT+69=";"!Y!-uN,_+[Oa?";"[1KmU1g==","!qE>Yn","[P6GqeKbmrQWHeO==","[+7jqnO==";"[bZb91mH5rZHQrkqHrQI=","!)+LPR;<)J","[I6ptvZGJAZGUrQI=","!G>]";"!m8fkU";"[IKmN37IOekbSnKOO1ZSHVZaHhy5c+D3K+DV=","[IDSUrKqVbAVXVZji16fYrC1zVZWi1KpTrKmY","[16pMn6j4";"[AZfShI==";"!)Nm\'rmClH","[bZb91m1JnD5M+6I=","!qES(!Eg0=)EgFTDEgM!2aV4<^l3W0^Pqo\'mg$9Mmg\"k@lg\"p4<aVUU5;/M";"[bAWUrI==","[3Ds=","!m8fkUje7D0a7.";"[173U1Zbqog==";"!;/lNuPNd","!a7_GZPM]CpXq<LDg&9-Kl_!1cP[r)ag*W6[,mdLSg$66iX^a4FTDU&fg\"s8D;<8:g,s!","!)jP,Fa)B1Ig$<h!XYh&WXq@1CXC*";"[eQjFv6+z","!mr7QAmr76QPXk%>c\\W","[rZGS+RjzekHN+M==";"[ek39nDjc+DIX8JGkrKpzeJGkn6qUrZHHeJGRr7WFn6qPAKzNvQjirO==";"[bZb91mS5rZHQrkqHrQI=","[W6pSnkfH+g==","!qES(>cH6hD;n","[1D5M+DV="}for b,n in ipairs({{1,184},{1;13};{14;184}})do while n[1]<n[2]do I[n[1]],I[n[2]],n[1],n[2]=I[n[2]],I[n[1]],n[1]+1,n[2]-1 end end local function b(b)return I[b+40264]end do local b={["#"]=49,K=3,O=59,[")"]=21,r=53;A=45;["="]=47,["("]=84;s=51;["$"]=40;["1"]=79,[">"]=52;P=37;[":"]=73,h=61,N=57,i=16;["`"]=42,W=9;k=15,["/"]=65,L=43,["^"]=80;M=2,["7"]=48,G=30;["4"]=58,["<"]=66,[";"]=36,["@"]=11;[","]=32;["3"]=70,_=50;["."]=46;["%"]=62;["-"]=6;["\""]=69;j=28,u=72;["9"]=77,d=24;J=19,X=31,m=22;["?"]=63;c=34;b=39;["]"]=74;e=7,["2"]=25;F=29,T=17,I=20;q=27;R=60;f=18;["6"]=76,E=10;S=78,l=14;U=67;["*"]=41,C=82,H=44;["8"]=54;B=4;n=81,Z=23,["+"]=83;D=8;["["]=1;["5"]=5;Q=64;["&"]=13;a=33,["0"]=56,g=35;["!"]=68,p=12,V=75,Y=26,["\\"]=71,["\'"]=0;t=55;o=38}local n=table.insert local r=string.char local B=I local s={W=17;Q=39;["4"]=43,q=53,r=27;P=19,N=46,a=45,["1"]=29;c=51,B=31,d=15;G=61;b=21,n=24,H=37,A=20,p=57,["5"]=1;m=5,j=13,["7"]=55,["9"]=56;D=23,w=4,K=54;f=49,R=7,y=18,k=38,v=26,["/"]=59;X=58;I=16,F=40;Z=6;g=0,M=48;L=2;l=60;i=47;["+"]=25;O=32,["6"]=22;["0"]=3,z=52;E=42;Y=36,["3"]=9;["8"]=11;t=35;e=28,o=14;J=50;["2"]=63;C=34,S=33,u=10;s=12,V=8,U=41,h=30,T=44,x=62}local Y=table.concat local g=type local N=string.len local e=math.floor local S=string.sub for I=1,#B,1 do local F=B[I]if g(F)=="string"then local g=S(F,1,1)if g=="["then F=S(F,2)local b=N(F)local g={}local R=1 local Z=0 local w=0 while R<=b do local I=S(F,R,R)local B=s[I]if B then Z=Z+B*(64^((3-w)))w=w+1 if w==4 then w=0 local I=e(Z/65536)local b=e((Z%65536)/256)local B=Z%256 n(g,r(I,b,B))Z=0 end elseif I=="="then n(g,r(e(Z/65536)))if R>=b or S(F,R+1,R+1)~="="then n(g,r(e((Z%65536)/256)))end break end R=R+1 end B[I]=Y(g)elseif g=="!"then F=S(F,2)local s=N(F)local g={}local R=1 while R<=s do local I=(s-R)+1 local B=I>=5 and 5 or I local Y=0 local N=B>1 for I=0,4,1 do local n if I<B then local r=S(F,R+I,R+I)n=b[r]if not n then N=false break end else n=84 end Y=Y*85+n end if N then local I=e(Y/16777216)%256 local b=e(Y/65536)%256 local s=e(Y/256)%256 local N=Y%256 if B==5 then n(g,r(I,b,s,N))elseif B==4 then n(g,r(I,b,s))elseif B==3 then n(g,r(I,b))elseif B==2 then n(g,r(I))end end R=R+B end B[I]=Y(g)end end end end local n={b(-40258);b(-40127),b(-40184);b(-40205);b(-40098),b(-40249);b(-40199);b(-40128);b(-40254);b(-40148);b(-40092),b(-40173);b(-40248),b(-40234),b(-40130);b(-40225);b(-40176);b(-40212),b(-40263),b(-40175),b(-40094);b(-40080);b(-40252),b(-40135),b(-40125),b(-40164);b(-40229),b(-40115);b(-40245);b(-40088);b(-40120);b(-40123);b(-40196),b(-40216);b(-40183),b(-40099),b(-40162),b(-40195);b(-40189);b(-40201);b(-40103);b(-40185);b(-40168);b(-40200);b(-40239);b(-40158),b(-40209);b(-40223),b(-40165),b(-40207);b(-40116);b(-40237);b(-40134);b(-40187);b(-40166),b(-40118),b(-40101);b(-40122);b(-40145);b(-40096),b(-40224),b(-40146);b(-40169),b(-40137);b(-40143),b(-40206);b(-40221);b(-40211),b(-40179),b(-40133);b(-40171),b(-40255);b(-40218),b(-40138),b(-40192);b(-40102);b(-40217),b(-40081),b(-40154);b(-40111);b(-40132);b(-40213),b(-40194),b(-40113);b(-40231);b(-40144);b(-40261),b(-40093);b(-40091),b(-40147),b(-40161);b(-40259);b(-40089);b(-40215),b(-40240);b(-40204)}return(function(I,r,B,s,Y,g,N,e,S,F,R,Z,w,h,o,C,v,G,z,H,V,O,d,f,y,m,U,M,T,D,Q,i,l)H,Q,h,z,i,M,w,l,O,v,T,o,f,m,D,C,U,G,y,d,V,Z=function(I,b,n)local r=w(b)local B=function(...)return C(I,O(...),b,r,e and e(1)or n)end if F then F(B,n)end return B end,function(I,b,r)local B=w(b)local s=function(s,Y)return C(I,{s;Y;[n[82]]=2},b,B,e and e(1)or r)end if F then F(s,r)end return s end,function(I,b,r)local B=w(b)local s=function(s,Y,g,N,S,F,R)return C(I,{s,Y,g;N,S;F,R,[n[82]]=7},b,B,e and e(1)or r)end if F then F(s,r)end return s end,{},function(I)return B(I,1,I[n[82]])end,function(I,b,r)local B=w(b)local s=function()return C(I,{[n[82]]=0},b,B,e and e(1)or r)end if F then F(s,r)end return s end,function(b)for I=1,#b,1 do z[b[I]]=1+z[b[I]]end if S then local r=S(true)local B=I(r)B[n[52]],B[n[73]],B[n[36]]=b,U,function()return-546072 end return r else return R({},{[n[73]]=U;[n[52]]=b;[n[36]]=function()return-546072 end})end end,function(I,b,r)local B=w(b)local s=function(s,Y,g,N,S,F,R,Z)return C(I,{s,Y,g,N,S,F;R,Z,[n[82]]=8},b,B,e and e(1)or r)end if F then F(s,r)end return s end,function(...)return{[n[82]]=s(n[84],...);...}end,function(I,b,...)if e and I==e then local I=...if I==nil or I==1 then return b end end return I(...)end,0,function(I,b,r)local B=w(b)local s=function(s,Y,g,N,S,F,R,Z,w)return C(I,{s,Y;g,N;S,F;R,Z,w;[n[82]]=9},b,B,e and e(1)or r)end if F then F(s,r)end return s end,function(I)z[I]=z[I]-1 if z[I]==0 then z[I],D[I]=nil,nil end end,function()T=T+1 z[T]=1 return T end,{},function(I,r,B,s,N)local e,S,F,R,w,C,z,H,U,T,u,L,k,K,a,x,P,A,E,c,J,W,p,q,X,j,t,IV,bV,nV,rV,BV,sV,YV,gV,NV,eV,SV,FV,RV,ZV,wV,hV,oV,CV,vV,GV,zV,HV,VV,OV,dV,fV,yV while I do if I>8238916.5 then if 12020954>I then if I>10420750 then if 11219474>I then if I>10826514 then if 11019655>I then if I<10889626.5 then RV,sV,S=r[2],r[3],r[1]wV=D[B[1]]R=not wV wV=nil I=R and 368239 or 3095593 R=nil elseif I<10949057 then CV,rV=n[67],n[67]OV=RV[rV]R=wV rV=nil R[CV]=OV R,CV,OV=nil,nil,nil I=14288413 else S=D[B[1]]sV=D[B[2]]R=b(-40140)R=S[R]RV=O(v(R,N,S,sV))R,S,sV=nil,nil,nil U=O(i(RV))RV=nil I=nil end else if 11127639>I then sV=D[B[1]]L=D[B[3]]BV,bV=6,b(-40246)z=v(sV,N,bV,L,BV)sV,z,bV,L,BV=nil,nil,nil,nil,nil sV=7914266>=11070629 U=O(sV)sV=nil I=nil else S,RV=r,b(-40235)sV=m()D[sV]=RV RV=nil R=m()RV=b(-40208)D[R]=RV RV=nil wV,rV,OV,CV=3447057849,4100599924,561164060,1040088857 RV={wV;CV,OV;rV}wV,CV,OV,rV=nil,nil,nil,nil wV=m()D[wV]=RV RV=nil OV=m()RV=b(-40247)CV=b(-40260)D[OV]=CV CV=nil CV,z=b(-40136),n[45]rV=N[z]z=nil z,bV=n[43],b(-40108)z=rV[z]z=v(z,N,rV,bV)rV,bV=nil,nil bV=n[45]rV=N[bV]bV=nil L,bV=b(-40236),n[43]bV=rV[bV]bV=v(bV,N,rV,L)rV,L=nil,nil rV=m()D[rV]=bV bV=nil L=n[45]bV=N[L]L=nil L=n[43]L=bV[L]BV=b(-40172)L=v(L,N,bV,BV)bV,BV=nil,nil bV=m()D[bV]=L L=nil BV=n[45]L=N[BV]BV=nil BV,w=n[43],b(-40149)BV=L[BV]BV=v(BV,N,L,w)L,w=nil,nil w=b(-40160)L=z[w]w=nil w=m()D[w]=L L=nil eV=Z(8914002,{},N)L=m()D[L]=eV eV=nil eV=m()P=V(13982041,{w},N)D[eV]=P P=nil IV,zV,gV,nV,HV,a,FV,YV,hV,K=b(-40243),n[37],b(-40117),b(-40082),b(-40150),b(-40193),b(-40129),b(-40222),b(-40219),b(-40180)T=YV..CV YV=nil P={[FV]=zV,[gV]=hV;[IV]=K,[a]=nV,[HV]=T}zV,FV,hV,gV,K,IV,nV,a,T,HV=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil FV=m()D[FV]=P P=nil zV=Q(6480975,{},N)P=m()D[P]=zV zV=nil zV=m()gV=Z(12789512,{P},N)D[zV]=gV gV=nil hV=o(4078406,{zV},N)gV=m()D[gV]=hV hV=nil IV=y(7862979,{eV,OV,bV,w,FV;gV},N)hV=m()D[hV]=IV IV=nil a=n[61]K=N[a]a=nil a=n[32]IV=K[a]K,a=nil,nil HV,nV,a=255,92,124 K=v(IV,N,a,nV,HV)IV,a,nV,HV=nil,nil,nil,nil IV=m()D[IV]=K K=nil nV=n[61]a=N[nV]nV=nil nV=n[32]K=a[nV]a,nV=nil,nil nV,HV,T=190,120,255 a=v(K,N,nV,HV,T)K,nV,HV,T=nil,nil,nil,nil HV=n[61]nV=N[HV]HV=nil HV=n[32]K=nV[HV]nV,HV=nil,nil YV,T,HV=18,12,13 nV=v(K,N,HV,T,YV)K,HV,T,YV=nil,nil,nil,nil K=m()D[K]=nV nV=nil T=n[61]HV=N[T]T=nil T=n[32]nV=HV[T]HV,T=nil,nil YV,T,vV=24,26,36 HV=v(nV,N,T,YV,vV)nV,T,YV,vV=nil,nil,nil,nil nV=m()D[nV]=HV HV=nil YV=n[61]T=N[YV]YV=nil YV=n[32]HV=T[YV]T,YV=nil,nil vV,YV,NV=48,52,70 T=v(HV,N,YV,vV,NV)HV,YV,vV,NV=nil,nil,nil,nil HV=m()D[HV]=T T=nil vV=n[61]YV=N[vV]vV=nil vV=n[32]T=YV[vV]YV,vV=nil,nil yV,vV,NV=245,236,234 YV=v(T,N,vV,NV,yV)T,vV,NV,yV=nil,nil,nil,nil T=m()D[T]=YV YV=nil NV=n[61]vV=N[NV]NV=nil NV=n[32]YV=vV[NV]vV,NV=nil,nil E,NV,yV=170,150,145 vV=v(YV,N,NV,yV,E)YV,NV,yV,E=nil,nil,nil,nil YV=m()D[YV]=vV vV=nil yV=n[61]NV=N[yV]yV=nil yV=n[32]vV=NV[yV]NV,yV=nil,nil yV,GV,E=255,115,105 NV=v(vV,N,yV,E,GV)vV,yV,E,GV=nil,nil,nil,nil vV=m()D[vV]=NV NV=nil E=n[93]yV=N[E]E=nil E=n[47]NV=yV[E]yV,E=nil,nil E,oV=n[72],n[17]c=N[oV]oV=nil oV=n[19]SV=c[oV]c,oV=nil,nil c=b(-40109)GV=SV[c]SV,c=nil,nil yV=v(NV,N,E,GV)NV,E,GV=nil,nil,nil NV=m()D[NV]=yV yV=nil GV=n[93]E=N[GV]GV=nil GV=n[47]yV=E[GV]E,GV=nil,nil GV,ZV=n[72],n[17]oV=N[ZV]ZV=nil ZV=n[19]c=oV[ZV]oV,ZV=nil,nil oV=b(-40210)SV=c[oV]c,oV=nil,nil E=v(yV,N,GV,SV)yV,GV,SV=nil,nil,nil yV=m()D[yV]=E E=nil GV=l(253349,{},N)E=m()D[E]=GV GV=nil SV=V(6795581,{E},N)GV=m()D[GV]=SV SV=nil c=h(14780048,{rV},N)SV=m()D[SV]=c c=nil t,ZV=n[35],I q=N[t]t=nil oV,I=q,q and 2189768 or 9928859 q=nil end end else if I>10721341 then if I<10779158 then OV,rV=nil,n[30]U=O(OV,rV)OV,rV=nil,nil I=nil else RV=D[B[4]]wV=y(1172601,{B[3],S},N)R=v(RV,N,wV)RV,R,wV=nil,nil,nil S=f(S)S=nil sV=f(sV)sV=nil U=O()I=nil end else if I<10479018.5 then bV={v(R,N,z)}OV,CV,rV=bV[2],bV[1],bV[3]bV,R,z=nil,nil,nil I=4332922 elseif I<10601612 then I=nil U=O()else bV,BV,L,rV=nil,nil,nil,nil rV=0 z=rV rV=nil rV=5 bV=rV rV=nil rV=1 L=rV rV=nil rV=0 z=Y(z)or g(n[96])bV=Y(bV)or g(n[50])L=Y(L)or g(n[24])BV=rV>L rV=nil rV=z-L z=nil I=8993190 end end end else if I<11798794 then if I>11624958.5 then if I<11712923 then RV=nil RV=nil I=nil U=O()else RV=n[45]S=N[RV]RV=nil wV=D[B[1]]R,I=wV,wV and 14946045 or 7590534 wV=nil end else if I<11273604 then R[wV]=CV R,wV,CV=nil,nil,nil R=D[B[1]]wV,CV=b(-40253),2765429<=4045970 R[wV]=CV R,wV,CV=nil,nil,nil I=sV and 2379037 or 9986840 elseif 11464019.5>I then bV,OV=n[30],nil U=O(OV,bV)OV,bV=nil,nil I=nil else OV=n[67]CV=RV[OV]OV=nil R=CV CV=nil I=6447706 end end else if 11990108.5>I then if I<11860746 then RV=nil RV=nil I=10533131 elseif I<11949479.5 then RV=b(-40232)S=N[RV]RV=nil sV=n[40]RV=v(S,N,sV)S,sV=nil,nil R=n[4]sV=RV==R R=nil I,S=sV and 3883866 or 6116242,sV sV=nil else J=v(H,N,p)J=nil I=3068840 end else if 12003269>I then sV=D[B[4]]CV=v(sV,N,wV,S)sV=nil OV=b(-40256)sV=N[OV]OV=nil z={v(sV,N,CV)}rV,OV=z[2],z[1]z,sV=nil,nil sV=not OV I=sV and 11053148 or 10181135 sV=nil else rV,z=CV(OV,rV)I=rV and 8296035 or 15825599 end end end end else if 9709863.5>I then if I<8898698 then if I>8526324.5 then if 8687307.5>I then L=n[75]bV=N[L]L=nil BV=D[sV]L=v(bV,N,BV)bV,BV=nil,nil bV=n[83]z=L~=bV bV,L=nil,nil OV=z z=nil I=51145 elseif 8860042>I then w=n[75]BV=N[w]w=nil w=v(BV,N,z)BV=nil BV=n[25]L=w~=BV BV,w=nil,nil OV=L L=nil I=14907935 else I=RV and 12396434 or 4117043 RV=nil end else if 8319392.5>I then L,R=n[67],rV bV=R~=L L=nil I=bV and 241457 or 3886760 bV=nil elseif I<8428737 then IV=n[42]hV=N[IV]IV=nil IV=n[55]gV=hV[IV]hV,IV=nil,nil hV=v(gV,N)gV=nil FV=hV hV=nil I=6765905 else U=O()I=nil end end else if I>9206695 then if 9374516>I then S=D[B[1]]RV=n[11]RV=S[RV]RV=v(RV,N,S)RV,S=nil,nil U=O()I=nil else S=m()D[S]=r[1]OV=n[45]R=D[B[1]]CV=N[OV]OV=nil OV=b(-40241)wV=CV[OV]CV,OV=nil,nil sV=R[wV]R,wV=nil,nil I,RV=sV and 8883394 or 10319702,sV sV=nil end else if 8953596>I then S,sV,CV=r[1],r[3],n[28]wV=N[CV]RV=r[2]CV=nil CV=b(-40250)R=wV[CV]wV,CV=nil,nil OV=#S rV=2 CV=OV/rV rV,OV=nil,nil wV=v(R,N,CV)R,CV=nil,nil OV=n[12]CV=N[OV]OV=nil OV=b(-40202)R=CV[OV]CV,OV=nil,nil CV=v(R,N,S)R=nil rV=n[12]OV=N[rV]rV=nil rV=b(-40152)R=OV[rV]OV,rV=nil,nil OV=v(R,N,wV)R=nil R={}rV=0 z=rV rV=nil rV=9 bV=rV rV=nil rV=1 L=rV rV=nil z=Y(z)or g(n[96])bV=Y(bV)or g(n[50])L=Y(L)or g(n[24])rV=0 BV=L<rV rV=nil rV=z-L z=nil I=1809014 elseif I<9074208 then w,rV=not BV,rV+L z=rV<=bV z=w and z w=bV<=rV w=BV and w z=w or z w=nil w=10085699 I=z and w w,z=nil,nil z=13546116 I=I or z z=nil else J=D[A]X=v(J,N)J,X=nil,nil I=3068840 end end end else if I>10196235.5 then if I>10349148.5 then if 10397594.5>I then P=n[17]eV=N[P]P=nil P=b(-40226)w=eV[P]eV,P=nil,nil eV=b(-40153)BV=w[eV]w,eV=nil,nil bV=BV BV=nil I=13509339 else I=S and 12401327 or 3561335 S=nil end else if 10255354>I then L=b(-40177)bV=z[L]L=nil OV=not bV bV=nil I=OV and 6383520 or 6932015 OV=nil elseif 10314903>I then CV=n[33]wV=N[CV]CV=nil CV=v(wV,N)wV=nil wV=n[54]R=CV[wV]CV,wV=nil,nil RV=R R=nil I=15338703 else OV=n[45]R=D[B[2]]CV=N[OV]OV=nil OV=b(-40156)wV=CV[OV]CV,OV=nil,nil sV=R[wV]R,wV=nil,nil RV=sV sV=nil I=8883394 end end else if 10133417>I then if 9957849.5>I then I=ZV ZV=nil I,c=oV and 3994620 or 5116861,oV oV=nil elseif I<10036269.5 then S=nil S=nil RV=nil RV=nil sV=nil sV=nil I=nil U=O()else P,w,z=65,R,rV eV=P+z P=nil FV=10 P=FV+z FV=nil w[eV]=P w,eV,P=nil,nil,nil P=97 eV=P+z w=R P=nil FV=10 P=FV+z FV=nil w[eV]=P w,eV,P=nil,nil,nil z=nil z=nil I=8993190 end else if I<10186501 then sV=D[B[5]]z=v(sV,N)sV,z=nil,nil bV=n[16]z=N[bV]bV=nil bV=b(-40142)sV=z[bV]z,bV=nil,nil z=v(sV,N,OV)sV,z=nil,nil sV=4285111<=12736256 U=O(sV)sV=nil I=nil else sV,wV=I,n[33]R=N[wV]wV=nil I,RV=R and 10310104 or 15338703,R R=nil end end end end end else if I<14727630 then if 13081022.5>I then if I>12487435 then if I<12784851.5 then if I<12588888 then sV=n[68]RV=N[sV]sV=nil S,I=RV,RV and 16760854 or 15325258 RV=nil elseif 12692212>I then CV=z+CV OV,L=rV>=CV,not bV OV=L and OV L=CV>=rV L=bV and L OV=L or OV L=nil L=7103591 I=OV and L L,OV=nil,nil OV=6936182 I=I or OV OV=nil else S=nil U=O(S)S=nil I=nil end else if 12804885>I then S,RV=r[1],2166136261 sV=1 R=sV sV=nil sV=#S wV=sV sV=nil sV=1 CV=sV sV=nil R=Y(R)or g(n[96])wV=Y(wV)or g(n[50])CV=Y(CV)or g(n[24])sV=0 OV=sV>CV sV=nil sV=R-CV R=nil I=7095648 else wV=n[76]S=D[B[1]]sV=D[B[2]]CV=D[B[3]]R={[wV]=CV}CV,wV=nil,nil wV=.15 RV=v(S,N,sV,R,wV)S,RV,sV,R,wV=nil,nil,nil,nil,nil I=nil U=O()end end else if 12347366>I then if I<12147626.5 then wV=n[54]R=N[wV]wV=nil RV=R R=nil I=482884 elseif I<12302138.5 then S=D[B[1]]I=S and 16553284 or 13533232 S=nil else BV=n[57]L=z[BV]BV=nil OV=L L=nil I=3190734 end else if I<12374016 then S=D[B[1]]I=S and 4047687 or 2860605 S=nil elseif 12398880.5>I then RV=D[B[3]]R=D[S]sV=v(RV,N,R)RV,sV,R=nil,nil,nil I=nil U=O()else RV=n[66]S=N[RV]RV=nil sV=n[34]RV=v(S,N,sV)S,RV,sV=nil,nil,nil I=3561335 end end end else if I>13764078.5 then if 14315433>I then if 14112554.5>I then RV=n[2]S=N[RV]RV=nil R=Q(16465713,{},N)wV={v(S,N,R)}sV,RV=wV[2],wV[1]wV,S,R=nil,nil,nil I,S=RV and 2703114 or 14830981,RV elseif 14265740.5>I then RV=b(-40257)S=D[B[1]]sV=n[77]RV=S[RV]RV=v(RV,N,S,sV)S,sV=nil,nil I=RV and 15312450 or 11632268 else U=O(wV)I=nil end else if 14508832.5>I then wV,OV,CV,sV=nil,nil,nil,nil U=O(RV)I=nil else w,hV=BV,n[56]gV=N[hV]hV=nil hV=n[39]zV=gV[hV]gV,hV=nil,nil K=n[56]IV=N[K]K=nil K=n[65]hV=IV[K]IV,K=nil,nil K=11 IV=O(v(hV,N,rV,K))hV,K=nil,nil gV=v(zV,N,rV,i(IV))zV,IV=nil,nil IV,zV,hV=L,z,bV bV=IV IV=nil z=hV hV=nil rV=zV zV=nil IV=n[56]hV=N[IV]IV=nil IV=n[39]zV=hV[IV]hV,IV=nil,nil a=n[56]K=N[a]a=nil a=n[39]IV=K[a]K,a=nil,nil HV=n[56]nV=N[HV]HV=nil HV=n[1]a=nV[HV]nV,HV=nil,nil HV=19 nV=O(v(a,N,L,HV))a,HV=nil,nil K=v(IV,N,L,i(nV))IV,nV=nil,nil nV=n[56]a=N[nV]nV=nil nV=n[39]IV=a[nV]a,nV=nil,nil T=n[56]HV=N[T]T=nil T=n[1]nV=HV[T]HV,T=nil,nil T=8 HV=O(v(nV,N,gV,T))nV,T=nil,nil a=O(v(IV,N,gV,i(HV)))IV,HV=nil,nil hV=v(zV,N,K,i(a))zV,K,a=nil,nil,nil L=hV hV=nil nV=n[12]a=N[nV]nV=nil nV=n[87]K=a[nV]a,nV=nil,nil HV=2 nV=w*HV HV=nil a=v(K,N,CV,nV)K,nV=nil,nil IV=R[a]a=nil K=16 hV=IV*K K,IV=nil,nil nV=n[12]a=N[nV]nV=nil nV=n[87]K=a[nV]a,nV=nil,nil T=2 HV=w*T T=nil T=1 nV=HV+T T,HV=nil,nil a=v(K,N,CV,nV)K,nV=nil,nil IV=R[a]a=nil zV=hV+IV IV,hV=nil,nil K=n[12]IV=N[K]K=nil K=b(-40262)hV=IV[K]IV,K=nil,nil nV=n[56]a=N[nV]nV=nil nV=n[39]K=a[nV]a,nV=nil,nil T=n[56]HV=N[T]T=nil T=n[7]nV=HV[T]HV,T=nil,nil T=255 HV=O(v(nV,N,L,T))nV,T=nil,nil a=O(v(K,N,zV,i(HV)))K,HV=nil,nil IV=v(hV,N,OV,w,i(a))hV,IV,a=nil,nil,nil K=60000 IV=w%K K=nil K=0 hV=IV==K K,IV=nil,nil I=hV and 5573464 or 6757027 hV=nil end end else if 13521285.5>I then if I<13363950.5 then sV=n[66]RV=N[sV]sV=nil I,S=RV and 7103800 or 10416594,RV RV=nil elseif I<13447726.5 then P,w,z=48,R,rV eV=P+z P=nil P=z w[eV]=P w,eV,P=nil,nil,nil z=nil z=nil I=1809014 else I=L L=nil eV=n[17]w=N[eV]eV=nil eV=b(-40181)BV=w[eV]w,eV=nil,nil w=b(-40228)L=BV[w]BV,w=nil,nil rV=v(OV,N,z,bV,L)OV,z,bV,L=nil,nil,nil,nil CV=b(-40141)CV=wV[CV]CV=v(CV,N,wV,S,rV,RV)wV,rV=nil,nil wV=b(-40085)wV=CV[wV]wV=v(wV,N,CV)wV=nil U=O(CV)I=nil end else if I<13539674 then S=9163196<=13777138 D[B[1]]=S S=nil RV=n[2]S=N[RV]RV=nil sV=d(3415198,{B[2]},N)RV=v(S,N,sV)S,RV,sV=nil,nil,nil S=D[B[3]]sV=D[B[4]]RV=v(S,N,sV)S,RV,sV=nil,nil,nil U=O()I=nil else bV,BV,L,rV=nil,nil,nil,nil z=1 rV=RV[z]z=nil bV=2 z=RV[bV]bV=nil L=3 bV=RV[L]L=nil BV=4 L=RV[BV]BV=nil BV=0 w=BV BV=nil eV=1 BV=wV-eV eV=nil eV=BV BV=nil BV=1 P=BV BV=nil w=Y(w)or g(n[96])eV=Y(eV)or g(n[50])BV=0 P=Y(P)or g(n[24])FV=P<BV BV=nil BV=w-P w=nil I=6372181 end end end end else if I<15741322.5 then if 15178320.5>I then if I>14926990 then if I<14995118 then z,CV=n[79],b(-40167)rV=N[z]z=nil BV=n[42]L=N[BV]BV=nil BV=n[55]bV=L[BV]L,BV=nil,nil L=O(v(bV,N))bV=nil z=v(rV,N,i(L))rV,L=nil,nil bV=n[79]rV=N[bV]bV=nil w=n[28]BV=N[w]w=nil w=n[49]L=BV[w]BV,w=nil,nil eV,w=9999,1000 BV=O(v(L,N,w,eV))L,w,eV=nil,nil,nil bV=v(rV,N,i(BV))rV,BV=nil,nil OV=z..bV bV,z=nil,nil wV=CV..OV OV,CV=nil,nil sV=R..wV wV,R=nil,nil R=n[15]R=S[R]RV=O(v(R,N,S,sV))R,S,sV=nil,nil,nil U=O(i(RV))RV=nil I=nil else RV=n[2]S=N[RV]RV=nil sV=Z(15621084,{B[1]},N)RV=v(S,N,sV)S,RV,sV=nil,nil,nil S=nil D[B[1]]=S S=nil I=8514724 end else if I<14805514.5 then wV=D[B[1]]R,sV,RV,S,z=r[4],r[3],r[2],r[1],b(-40114)rV=N[z]z=nil z=n[47]OV=rV[z]rV,z=nil,nil bV=.3 z=sV or bV bV=nil bV,L=R,I I=R and 13509339 or 10378595 elseif 14869458>I then I=S and 15657046 or 2266834 S=nil else I=bV bV=nil I=OV and 11310390 or 10200604 OV=nil end end else if I<15479893.5 then if 15318854>I then S=n[11]S=RV[S]S=v(S,N,RV)S=nil I=11632268 elseif I<15331980.5 then I=S and 11917482 or 10533131 S=nil else I=sV sV=nil I,S=RV and 6630531 or 5059622,RV RV=nil end else if I<15639065 then S=D[B[1]]RV=n[11]RV=S[RV]RV=v(RV,N,S)RV,S=nil,nil I=nil U=O()else U=O(sV)I=nil end end end else if 16106772>I then if I<15941563 then if 15858330.5>I then CV,OV,rV=nil,nil,nil CV=b(-40170)R=N[CV]CV=nil I,z=sV and 10424906 or 15902972,sV elseif 15897017>I then S=D[B[1]]I=S and 15044191 or 8514724 S=nil else bV={}z=bV bV=nil I=10424906 end else if I<16022148 then OV,bV=I,n[75]z=N[bV]bV=nil bV=v(z,N,wV)z=nil z=n[83]rV=bV==z z,bV=nil,nil CV,I=rV,rV and 5215905 or 6933162 rV=nil else S=D[RV]U=O(S)S=nil I=nil end end else if I<16509498.5 then if 16230590.5>I then RV,sV,S=r[2],r[3],r[1]R=m()D[R]=r[4]z=D[B[1]]bV=D[B[2]]rV=z-bV bV,z=nil,nil z=26 OV=rV-z z,rV=nil,nil rV=12 CV=OV-rV rV,OV=nil,nil OV=2 wV=CV/OV OV,CV=nil,nil CV=D[B[3]]P=n[80]L=D[B[4]]eV=N[P]bV=n[67]BV,rV=n[14],b(-40188)P=nil P=n[85]w=eV[P]eV,P=nil,nil FV=D[B[2]]hV=1 gV=S-hV hV=nil IV=12 hV=wV+IV IV=nil zV=gV*hV hV,gV=nil,nil P=FV+zV zV,FV=nil,nil FV=92 eV=v(w,N,P,FV)w,P,FV=nil,nil,nil zV,w=n[80],n[26]FV=N[zV]zV=nil zV=n[85]P=FV[zV]FV,zV=nil,nil zV=148 FV=v(P,N,wV,zV)P,zV=nil,nil gV,P=n[60],n[86]zV=D[B[5]]K,hV,IV=9386875>=15753943,n[95],b(-40186)z={[bV]=L;[BV]=eV;[w]=FV;[P]=zV,[gV]=hV;[IV]=K}L,bV,eV,BV,FV,w,zV,P,hV,gV,K,IV=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil w=12 L=D[B[6]]BV=O(v(L,N,w))L,w=nil,nil bV={i(BV)}BV=nil OV=v(CV,N,rV,z,bV)CV,rV,z,bV=nil,nil,nil,nil BV,L,z=n[76],n[67],n[90]P=1.2 CV=D[B[3]]w=D[B[7]]eV=n[23]bV={[L]=OV,[BV]=w,[eV]=P}L,w,BV,P,eV=nil,nil,nil,nil,nil rV=v(CV,N,z,bV)CV,z,bV=nil,nil,nil CV=m()D[CV]=rV rV=nil FV,w,BV,bV=n[80],n[14],n[67],n[58]rV=D[B[3]]P=N[FV]FV=nil FV=n[85]eV=P[FV]P,FV=nil,nil FV,zV=14,16 P=v(eV,N,FV,zV)eV,FV,zV=nil,nil,nil eV,gV=n[26],n[80]zV=N[gV]gV=nil gV=n[47]FV=zV[gV]zV,gV=nil,nil hV,IV,gV,K=-28,0,1,20 zV=v(FV,N,gV,hV,IV,K)FV,gV,hV,IV,K=nil,nil,nil,nil,nil gV,hV,IV,YV,HV,a,E=1,n[60],n[70],n[9],n[27],n[74],n[17]K=D[B[8]]nV,FV=16,n[92]T=D[B[9]]yV=N[E]E=nil E=n[9]NV=yV[E]yV,E=nil,nil yV=n[69]vV=NV[yV]NV,yV=nil,nil L={[BV]=OV;[w]=P,[eV]=zV,[FV]=gV,[hV]=RV;[IV]=K,[a]=nV,[HV]=T;[YV]=vV}BV,P,w,zV,eV,gV,FV,hV,K,IV,nV,a,T,HV,vV,YV=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil z=v(rV,N,bV,L)rV,z,bV,L=nil,nil,nil,nil BV,FV=n[67],n[80]rV=D[B[3]]P=N[FV]w,bV=n[14],n[58]FV=nil FV=n[85]eV=P[FV]P,FV=nil,nil zV,FV=44,14 P=v(eV,N,FV,zV)eV,FV,zV=nil,nil,nil eV,gV=n[26],n[80]zV=N[gV]gV=nil gV=n[47]FV=zV[gV]zV,gV=nil,nil IV,K,hV,gV=0,90,-28,1 zV=v(FV,N,gV,hV,IV,K)FV,gV,hV,IV,K=nil,nil,nil,nil,nil NV,a,FV,gV,hV,SV,nV,YV,vV,HV=n[9],n[74],n[92],1,n[60],n[17],12,b(-40083),13712388~=11151494,n[27]K=D[B[10]]T=D[B[11]]IV=n[70]GV=N[SV]SV=nil SV=n[9]E=GV[SV]GV,SV=nil,nil GV=n[69]yV=E[GV]E,GV=nil,nil E,oV=n[88],n[17]c=N[oV]oV=nil oV=n[88]SV=c[oV]c,oV=nil,nil c=b(-40163)GV=SV[c]SV,c=nil,nil L={[BV]=OV;[w]=P;[eV]=zV;[FV]=gV;[hV]=sV;[IV]=K,[a]=nV;[HV]=T,[YV]=vV,[NV]=yV;[E]=GV}BV,P,w,zV,eV,gV,FV,hV,K,IV,nV,a,T,HV,vV,YV,yV,NV,GV,E=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil z=v(rV,N,bV,L)rV,z,bV,L=nil,nil,nil,nil z=b(-40095)rV=OV[z]z=nil bV=M(1986921,{B[12];CV;B[13]},N)z=n[31]z=rV[z]z=v(z,N,rV,bV)z,rV,bV=nil,nil,nil z=b(-40155)rV=OV[z]z=nil z=n[31]z=rV[z]bV=d(12820258,{B[12],CV,B[7]},N)z=v(z,N,rV,bV)z,rV,bV=nil,nil,nil z=b(-40244)rV=OV[z]z=nil bV=Z(12261143,{B[14],B[15],B[16],R},N)z=n[31]z=rV[z]z=v(z,N,rV,bV)z,rV,bV=nil,nil,nil S=nil S=nil RV=nil RV=nil sV=nil sV=nil R=f(R)R=nil wV=nil wV=nil OV=nil OV=nil CV=f(CV)CV=nil U=O()I=nil elseif 16388746>I then bV,OV=n[75],I z=N[bV]bV=nil bV=v(z,N,wV)z=nil z=n[83]rV=bV~=z z,bV=nil,nil I,CV=rV and 6715158 or 5332973,rV rV=nil else sV=n[29]RV=N[sV]sV=nil I,S=RV and 2536565 or 5128890,RV RV=nil end else if I<16657069 then I=nil U=O()else sV=n[68]RV=N[sV]sV=nil R=n[40]sV=v(RV,N,R)RV,R=nil,nil S=sV sV=nil I=15325258 end end end end end end else if I<4063046.5 then if 2228301>I then if 1192894>I then if I>515335 then if I<921064 then if 577260>I then RV=m()S=nil D[RV]=S S=nil sV=n[2]S=N[sV]sV=nil R=Q(10191867,{RV},N)sV=v(S,N,R)S,sV,R=nil,nil,nil sV=n[79]S=N[sV]sV=nil wV=D[RV]CV=n[95]R=wV or CV wV,CV=nil,nil sV=v(S,N,R)S,R=nil,nil R,S,wV=n[22],n[21],n[95]S=sV[S]S=v(S,N,sV,R,wV)sV,R,wV=nil,nil,nil D[RV]=S S=nil R=D[RV]sV=#R R=nil R=6 S=sV>=R R,sV=nil,nil I=S and 16064142 or 12780191 S=nil elseif 679940>I then eV,FV,P,BV=nil,nil,nil,nil eV=n[12]w=N[eV]eV=nil eV=n[79]BV=w[eV]w,eV=nil,nil w=O(v(BV,N,OV))BV=nil U=O(i(w))w=nil I=nil else bV={}z=bV bV=nil I=3288400 end else if 1130791.5>I then bV,R=n[56],sV z=N[bV]bV=nil bV=n[39]rV=z[bV]z,bV=nil,nil BV=n[83]L=N[BV]BV=nil BV=b(-40105)bV=L[BV]L,BV=nil,nil L=O(v(bV,N,S,R))bV=nil z=v(rV,N,RV,i(L))rV,L=nil,nil RV=z z=nil bV=16777619 rV=D[B[1]]z=v(rV,N,RV,bV)rV,bV=nil,nil RV=z z=nil R=nil R=nil I=7095648 else S=m()sV=n[33]D[S]=r[1]RV=N[sV]sV=nil sV=v(RV,N)RV=nil RV=n[41]R=D[S]sV[RV]=R sV,RV,R=nil,nil,nil sV=n[2]RV=N[sV]sV=nil R=Q(13341787,{S},N)sV=v(RV,N,R)RV,sV,R=nil,nil,nil RV=D[B[1]]R=D[B[2]]sV=v(RV,N,R)RV,sV,R=nil,nil,nil S=f(S)S=nil U=O()I=nil end end else if I>310794 then if 383090.5>I then CV,w,rV,P,z,L,FV,BV,eV=n[5],15677839~=16390436,n[6],999,n[77],13032141<=10037983,n[67],n[81],n[44]R=D[B[2]]zV=D[B[3]]bV=n[63]OV={[rV]=z,[bV]=L,[BV]=w;[eV]=P,[FV]=zV}z,rV,L,bV,w,BV,P,eV,zV,FV=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil wV=v(R,N,CV,OV)R,CV,OV=nil,nil,nil D[B[1]]=wV wV=nil CV,bV=n[3],n[89]R=D[B[2]]rV,w=n[67],n[10]z=D[B[1]]BV=N[w]w=nil w=n[47]L=BV[w]BV,w=nil,nil eV,w=1,.5 BV=v(L,N,w,eV)L,w,eV=nil,nil,nil L,P=n[14],n[80]eV=N[P]P=nil P=n[47]w=eV[P]eV,P=nil,nil gV,FV,zV,P=-26,0,1,.5 eV=v(w,N,P,FV,zV,gV)w,P,FV,zV,gV=nil,nil,nil,nil,nil zV=n[80]FV=N[zV]w=n[26]zV=nil zV=n[85]P=FV[zV]FV,zV=nil,nil zV,gV=250,34 FV=v(P,N,zV,gV)P,zV,gV=nil,nil,nil IV=n[64]zV=D[B[4]]P,hV,K,gV=n[86],.05,0,n[92]OV={[rV]=z,[bV]=BV,[L]=eV,[w]=FV,[P]=zV,[gV]=hV;[IV]=K}z,rV,BV,bV,eV,L,FV,w,zV,P,hV,gV,K,IV=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil z=D[B[5]]L=10 bV=v(z,N,L)z,L=nil,nil zV=1 z=D[B[2]]eV=n[76]P=D[B[6]]FV,BV=n[23],n[90]w={[eV]=P,[FV]=zV}P,eV,zV,FV=nil,nil,nil,nil L=O(v(z,N,BV,w))z,BV,w=nil,nil,nil rV={bV,i(L)}bV,L=nil,nil wV=v(R,N,CV,OV,rV)R,CV,OV,rV=nil,nil,nil,nil w,z,bV=n[80],n[67],n[14]R=D[B[2]]BV=N[w]OV=n[3]w=nil w=n[85]L=BV[w]BV,w=nil,nil w,eV=14,14 BV=v(L,N,w,eV)L,w,eV=nil,nil,nil P,L=n[80],n[26]eV=N[P]P=nil P=n[85]w=eV[P]eV,P=nil,nil FV,P=6,6 eV=v(w,N,P,FV)w,P,FV=nil,nil,nil w=n[86]P=D[B[7]]FV,zV=n[64],0 rV={[z]=wV,[bV]=BV;[L]=eV;[w]=P;[FV]=zV}z,BV,bV,eV,L,P,w,zV,FV=nil,nil,nil,nil,nil,nil,nil,nil,nil zV,eV,BV=n[78],n[71],n[91]bV=D[B[2]]FV=N[zV]zV=nil zV=n[47]P=FV[zV]FV,zV=nil,nil zV,gV=1,0 FV=v(P,N,zV,gV)P,zV,gV=nil,nil,nil w={[eV]=FV}FV,eV=nil,nil L=O(v(bV,N,BV,w))bV,BV,w=nil,nil,nil z={i(L)}L=nil CV=v(R,N,OV,rV,z)R,OV,rV,z=nil,nil,nil,nil eV=n[80]rV=n[58]R=D[B[2]]w=N[eV]bV,L=n[67],n[14]eV=nil eV=n[85]BV=w[eV]w,eV=nil,nil eV,P=28,0 w=v(BV,N,eV,P)BV,eV,P=nil,nil,nil FV=n[80]P=N[FV]BV=n[26]FV=nil FV=n[47]eV=P[FV]P,FV=nil,nil zV,FV,gV,hV=-36,1,1,0 P=v(eV,N,FV,zV,gV,hV)eV,FV,zV,gV,hV=nil,nil,nil,nil,nil eV,K,nV,hV,zV,T,yV,a=n[92],n[74],n[27],n[70],n[60],n[9],n[17],13 IV=D[B[8]]FV,gV=1,n[95]HV=D[B[9]]NV=N[yV]yV=nil yV=n[9]vV=NV[yV]NV,yV=nil,nil NV=n[69]YV=vV[NV]vV,NV=nil,nil z={[bV]=wV;[L]=w;[BV]=P;[eV]=FV,[zV]=gV,[hV]=IV;[K]=a,[nV]=HV;[T]=YV}bV,w,L,P,BV,FV,eV,gV,zV,IV,hV,a,K,HV,nV,YV,T=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil OV=v(R,N,rV,z)R,rV,z=nil,nil,nil D[B[10]]=OV OV=nil wV=nil wV=nil CV=nil CV=nil I=3095593 elseif I<440413 then CV,OV,rV=nil,nil,nil I,R=RV and 11617649 or 6447706,RV else I=sV sV=nil S=RV RV=nil I=6630531 end else if 146301>I then I=rV rV=nil I=OV and 10772589 or 1767909 OV=nil elseif 247403>I then bV,L,BV=wV,R,z bV[L]=BV bV,L,BV=nil,nil,nil I=3886760 else CV,S,sV=b(-40191),r[1],r[3]wV=N[CV]RV=r[2]CV=nil CV=n[47]R=wV[CV]wV,CV=nil,nil wV=v(R,N,S)R=nil CV=b(-40100)R=N[CV]CV=nil I,z=RV and 3288400 or 753146,RV end end end else if 1796603.5>I then if 1671696>I then if 1288631.5>I then RV=D[B[1]]S=r[1]CV={v(RV,N,S)}sV,wV,R=CV[1],CV[3],CV[2]CV,RV=nil,nil RV=not sV I=RV and 6685572 or 8181798 RV=nil elseif I<1469779.5 then R=n[33]RV=N[R]R=nil R=v(RV,N)RV=nil RV=n[41]wV=D[sV]R[RV]=wV R,RV,wV=nil,nil,nil RV=D[B[3]]wV=D[S]R=v(RV,N,wV)RV,R,wV=nil,nil,nil I=nil U=O()else I=sV and 3550007 or 11998740 sV=nil end else if 1776051>I then rV=n[2]OV=N[rV]rV=nil bV=V(10986162,{B[3],sV},N)L={v(OV,N,bV)}rV,z=L[1],L[2]L,OV,bV=nil,nil,nil bV=I L=not rV OV,I=L,L and 14907935 or 8836690 L=nil else K=n[16]IV=N[K]K=nil K=b(-40097)hV=IV[K]IV,K=nil,nil IV=v(hV,N)hV,IV=nil,nil I=6757027 end end else if 2009832>I then if I<1880027.5 then rV,w=L+rV,not BV z=rV<=bV z=w and z w=bV<=rV w=BV and w z=w or z w=nil w=13386114 I=z and w w,z=nil,nil z=10670093 I=I or z z=nil elseif 1968981>I then RV=n[45]S=N[RV]RV=nil sV,RV=b(-40203),n[43]RV=S[RV]RV=v(RV,N,S,sV)S,sV=nil,nil sV=b(-40214)sV=RV[sV]S=O(v(sV,N,RV))sV,RV=nil,nil U=O(i(S))S=nil I=nil else wV=n[76]S=D[B[1]]sV=D[B[2]]CV=D[B[3]]R={[wV]=CV}CV,wV=nil,nil wV=.15 RV=v(S,N,sV,R,wV)S,RV,sV,R,wV=nil,nil,nil,nil,nil I=nil U=O()end else if 2111255.5>I then S=r[1]RV=m()D[RV]=r[2]wV=b(-40121)sV=D[B[1]]R=v(sV,N,wV)sV,R,wV=nil,nil,nil R=n[2]sV=N[R]R=nil CV=Q(11793578,{RV,B[2]},N)OV={v(sV,N,CV)}R,wV=OV[1],OV[2]OV,sV,CV=nil,nil,nil CV=not R sV,I=CV,CV and 1575483 or 16311779 CV=nil else t=n[35]q=N[t]t=nil t=v(q,N)q=nil oV=t t=nil I=9928859 end end end end else if I>3143163.5 then if I<3555671 then if 3351799>I then if 3199521.5>I then I=bV bV=nil I=OV and 3208309 or 7341464 OV=nil elseif 3248354.5>I then bV,eV,OV=n[59],n[59],z L=D[B[6]]w=z[eV]eV=nil P=n[57]eV=z[P]P=nil BV=v(L,N,w,R,RV,eV)L,w,eV=nil,nil,nil OV[bV]=BV OV,bV,BV=nil,nil,nil I=7341464 else bV={v(R,N,z)}rV,OV,CV=bV[3],bV[2],bV[1]bV,R,z=nil,nil,nil I=12007798 end else if I<3482602.5 then RV=n[11]S=D[B[1]]RV=S[RV]RV=v(RV,N,S)RV,S=nil,nil U=O()I=nil else z=6 sV=D[B[1]]OV=b(-40087)rV=D[B[3]]CV=v(sV,N,OV,rV,z)sV,CV,OV,rV,z=nil,nil,nil,nil,nil sV=14762612<=13759185 U=O(sV)sV=nil I=nil end end else if I>3940690 then if 4021153.5>I then oV=m()D[oV]=c c=nil ZV=n[2]c=N[ZV]ZV=nil q=V(14243068,{oV},N)ZV=v(c,N,q)c,ZV,q=nil,nil,nil q=m()ZV,c=nil,nil D[q]=c c=nil c=m()D[c]=ZV ZV=nil ZV=m()t=h(10867301,{q;E,oV;K;GV,HV,IV,yV;T,c},N)D[ZV]=t t=nil fV=M(15891062,{q},N)t=m()D[t]=fV fV=nil dV=Q(2032743,{ZV,sV,vV;L,t},N)fV=m()D[fV]=dV dV=nil A,W,x,C,VV,J,k,F,X,H,e,u,j,p=15322970~=6023544,10052950~=15208118,6368419>=1056791,3696409~=1069481,142823291,2738402~=7519695,8343259840,4588604953,15169310267,15169303036,15604002~=11960169,15169316384,4224222>1803922,15169306359 dV={[F]=C,[k]=A,[H]=j;[p]=J,[X]=W;[u]=e,[VV]=x}C,F,A,k,j,H,J,p,W,X,e,u,x,VV=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil F=m()D[F]=dV dV=nil C,k=1494262959,14234863~=4573601 dV={[C]=k}k,C=nil,nil C=m()D[C]=dV dV=nil dV=m()k=Q(5120284,{E,oV,K,GV,IV;yV;T,NV;YV;nV;HV,SV},N)D[dV]=k k=nil A=d(9490868,{F,C,fV,dV},N)k=m()D[k]=A A=nil H=Z(2920407,{fV;wV,R},N)A=m()D[A]=H H=nil H=G(1213187,{hV;A;k},N)j=d(547786,{},N)p=v(j,N)I=p and 11981477 or 9155226 else RV=n[2]S=N[RV]RV=nil sV=y(9258164,{B[1]},N)RV=v(S,N,sV)S,RV,sV=nil,nil,nil S=nil D[B[1]]=S S=nil I=2860605 end else if 3722600.5>I then RV=b(-40106)S=N[RV]RV=nil sV=n[40]R=D[B[1]]RV=v(S,N,sV,R)S,RV,sV,R=nil,nil,nil,nil U=O()I=nil elseif 3885313>I then I=S and 7903026 or 11804010 S=nil else R=nil R=nil z=nil z=nil I=12007798 end end end else if I<2781859.5 then if I<2569355 then if 2322935.5>I then R=n[2]S=N[R]R=nil CV=Q(1951041,{},N)OV={v(S,N,CV)}wV,R=OV[2],OV[1]OV,S,CV=nil,nil,nil S,I=R,R and 15980154 or 7904456 elseif 2457801>I then CV=n[16]wV=N[CV]CV=nil CV=b(-40124)R=wV[CV]wV,CV=nil,nil CV=y(12351598,{B[1]},N)wV=v(R,N,sV,CV)R,wV,CV=nil,nil,nil I=9986840 else sV=n[29]RV=N[sV]sV=nil sV=v(RV,N)RV=nil S=sV sV=nil I=5128890 end else if 2652629.5>I then OV=#sV rV=4 CV=OV>rV rV,OV=nil,nil R=CV CV=nil I=7188690 else rV=n[75]OV=N[rV]wV=I rV=nil rV=v(OV,N,sV)OV=nil OV=n[83]CV=rV==OV OV,rV=nil,nil I,R=CV and 2602145 or 7188690,CV CV=nil end end else if I<3031950.5 then if I<2890506 then U=O()I=nil elseif 2957734>I then RV=n[33]S=N[RV]RV=nil RV=v(S,N)S=nil sV,S=nil,n[38]RV[S]=sV RV,S,sV=nil,nil,nil RV=n[33]S=N[RV]RV=nil RV=v(S,N)S=nil sV,S=b(-40131),n[8]RV[S]=sV RV,S,sV=nil,nil,nil S=D[B[1]]sV=D[B[2]]R=D[B[3]]RV=v(S,N,sV,R)S,RV,sV,R=nil,nil,nil,nil I=nil U=O()else CV,rV=b(-40157),n[79]OV=N[rV]rV=nil bV=D[B[1]]L=n[51]z=bV[L]bV,L=nil,nil rV=v(OV,N,z)OV,z=nil,nil S=CV..rV rV,CV=nil,nil U=O(S)S=nil I=nil end else if 3082216.5>I then sV=f(sV)sV=nil R=f(R)R=nil wV=f(wV)wV=nil RV=nil RV=nil OV=f(OV)OV=nil CV=nil CV=nil z=nil z=nil rV=f(rV)rV=nil bV=f(bV)bV=nil BV=nil BV=nil w=f(w)w=nil L=f(L)L=nil eV=f(eV)eV=nil FV=f(FV)FV=nil P=f(P)P=nil zV=f(zV)zV=nil gV=f(gV)gV=nil hV=f(hV)hV=nil IV=f(IV)IV=nil a=nil a=nil K=f(K)K=nil nV=f(nV)nV=nil HV=f(HV)HV=nil T=f(T)T=nil YV=f(YV)YV=nil vV=f(vV)vV=nil NV=f(NV)NV=nil yV=f(yV)yV=nil E=f(E)E=nil GV=f(GV)GV=nil SV=f(SV)SV=nil oV=f(oV)oV=nil q=f(q)q=nil c=f(c)c=nil ZV=f(ZV)ZV=nil t=f(t)t=nil fV=f(fV)fV=nil F=f(F)F=nil C=f(C)C=nil dV=f(dV)dV=nil k=f(k)k=nil A=f(A)A=nil H=nil H=nil j=nil j=nil p=nil p=nil U=O()I=nil else R=D[B[10]]wV,CV=n[60],S R[wV]=CV R,wV,CV=nil,nil,nil I,CV=RV and 11236818 or 7233430,RV R=D[B[10]]wV=n[27]end end end end end else if 6736092.5>I then if 5453218.5>I then if I<5088241.5 then if I<4244027 then if 4097724.5>I then RV,R,sV,S,CV,wV=r[2],r[4],r[3],r[1],1,{}OV=CV CV=nil CV=4 rV=CV CV=nil CV=1 z=CV CV=nil OV=Y(OV)or g(n[96])rV=Y(rV)or g(n[50])z=Y(z)or g(n[24])CV=0 bV=CV>z CV=nil CV=OV-z OV=nil I=12604233 elseif 4136087.5>I then sV=m()RV=nil D[sV]=RV RV=nil R=n[2]RV=N[R]R=nil wV=Z(12573543,{sV},N)R=v(RV,N,wV)RV,R,wV=nil,nil,nil RV=D[sV]I=RV and 1364076 or 10785727 RV=nil else I=nil U=O(wV)end else if I<4399687 then rV,z=CV(OV,rV)I=rV and 4466452 or 397942 elseif 4763037>I then R,L,bV,BV=rV,n[67],z,wV bV[L]=BV bV,L,BV=nil,nil,nil R=nil R=nil z=nil z=nil I=4332922 else wV=b(-40227)R=N[wV]sV=I wV=nil OV=b(-40090)CV=N[OV]OV=nil OV=n[54]wV=v(R,N,CV,OV)R,CV,OV=nil,nil,nil RV,I=wV,wV and 482884 or 12034110 wV=nil end end else if 5172397.5>I then if I<5118572.5 then ZV=n[45]oV=N[ZV]ZV=nil q,ZV=b(-40084),n[43]ZV=oV[ZV]ZV=v(ZV,N,oV,q)oV,q=nil,nil c=ZV ZV=nil I=3994620 elseif I<5124587 then CV,rV,L,z=n[6],n[63],4132125<=9936931,12229492<5410909 S=m()w,BV,bV,R,eV=999,n[44],n[81],n[5],n[67]D[S]=r[1]RV=D[B[1]]P=D[B[2]]OV=n[77]wV={[CV]=OV;[rV]=z;[bV]=L,[BV]=w,[eV]=P}OV,CV,z,rV,L,bV,w,BV,P,eV=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil sV=v(RV,N,R,wV)RV,R,wV=nil,nil,nil RV=m()D[RV]=sV sV=nil R=272 wV=m()sV=400 D[wV]=sV sV=nil OV=n[3]sV=D[B[1]]z,eV=n[67],n[10]bV=D[RV]L=n[89]w=N[eV]eV=nil eV=n[47]BV=w[eV]w,eV=nil,nil P,eV=.5,.5 w=v(BV,N,eV,P)BV,eV,P=nil,nil,nil BV,FV=n[14],n[80]P=N[FV]FV=nil FV=b(-40182)eV=P[FV]P,FV=nil,nil zV,FV=.5,.5 P=v(eV,N,FV,zV)eV,FV,zV=nil,nil,nil gV,eV=n[80],n[26]zV=N[gV]gV=nil gV=n[85]FV=zV[gV]zV,gV=nil,nil gV=D[wV]zV=v(FV,N,gV,R)FV,gV=nil,nil FV,IV,hV=n[86],0,n[64]gV=D[B[3]]rV={[z]=bV;[L]=w,[BV]=P,[eV]=zV;[FV]=gV,[hV]=IV}bV,z,w,L,P,BV,zV,eV,gV,FV,IV,hV=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil BV=16 bV=D[B[4]]L=v(bV,N,BV)bV,BV=nil,nil P,zV=n[76],n[23]bV=D[B[1]]gV,w,IV,hV=1.2,n[90],.3,b(-40197)FV=D[B[5]]eV={[P]=FV;[zV]=gV,[hV]=IV}FV,P,gV,zV,IV,hV=nil,nil,nil,nil,nil,nil BV=O(v(bV,N,w,eV))bV,w,eV=nil,nil,nil z={L,i(BV)}L,BV=nil,nil CV=v(sV,N,OV,rV,z)sV,OV,rV,z=nil,nil,nil,nil sV=m()D[sV]=CV CV=nil CV=26 OV=m()D[OV]=CV CV=nil L,w=n[67],n[14]CV=D[B[1]]z=n[58]BV=D[sV]FV=n[80]P=N[FV]FV=nil FV=n[85]eV=P[FV]P,FV=nil,nil zV=26 FV=D[OV]P=v(eV,N,FV,zV)eV,FV,zV=nil,nil,nil gV=n[80]zV=N[gV]eV=n[26]gV=nil gV=n[85]FV=zV[gV]zV,gV=nil,nil IV=D[wV]K=D[OV]hV=IV-K K,IV=nil,nil IV=26 gV=hV-IV IV,hV=nil,nil hV=26 zV=v(FV,N,gV,hV)FV,gV,hV=nil,nil,nil K,gV,YV,FV,nV,hV,a,c,IV,T=n[60],1,22,n[92],n[70],b(-40159),b(-40198),n[17],13079282>580146,n[74]HV=D[B[6]]NV=D[B[7]]yV,vV=n[9],n[27]SV=N[c]c=nil c=n[9]GV=SV[c]SV,c=nil,nil SV=n[69]E=GV[SV]GV,SV=nil,nil bV={[L]=BV;[w]=P,[eV]=zV;[FV]=gV;[hV]=IV;[K]=a,[nV]=HV;[T]=YV,[vV]=NV;[yV]=E}BV,L,P,w,zV,eV,gV,FV,IV,hV,a,K,HV,nV,YV,T,NV,vV,E,yV=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil rV=v(CV,N,z,bV)CV,rV,z,bV=nil,nil,nil,nil FV=n[80]CV=D[B[1]]w,z,L=n[14],n[58],n[67]BV=D[sV]P=N[FV]FV=nil FV=n[85]eV=P[FV]P,FV=nil,nil zV=58 FV=D[OV]P=v(eV,N,FV,zV)eV,FV,zV=nil,nil,nil eV,gV=n[26],n[80]zV=N[gV]gV=nil gV=n[85]FV=zV[gV]zV,gV=nil,nil IV=D[wV]K=D[OV]hV=IV-K K,IV=nil,nil IV=26 gV=hV-IV IV,hV=nil,nil hV=18 zV=v(FV,N,gV,hV)FV,gV,hV=nil,nil,nil nV,T,FV,HV,hV=n[74],n[27],n[92],13,n[60]a=D[B[8]]GV,gV,K,vV,IV=n[17],1,n[70],n[9],b(-40112)YV=D[B[9]]E=N[GV]GV=nil GV=n[9]yV=E[GV]E,GV=nil,nil E=n[69]NV=yV[E]yV,E=nil,nil bV={[L]=BV;[w]=P,[eV]=zV,[FV]=gV,[hV]=IV,[K]=a,[nV]=HV,[T]=YV;[vV]=NV}BV,L,P,w,zV,eV,gV,FV,IV,hV,a,K,HV,nV,YV,T,NV,vV=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil rV=v(CV,N,z,bV)CV,rV,z,bV=nil,nil,nil,nil rV=m()CV=2957797>=5456312 D[rV]=CV CV=nil L=n[4]CV=o(16149402,{wV;OV;B[1];sV;B[10];B[4],B[11],B[6],B[7],B[8];B[9];B[12];B[5];rV;RV;S},N)bV,BV=1,b(-40174)w=n[4]z=v(CV,N,bV,L,BV,w)z,bV,L,BV,w=nil,nil,nil,nil,nil w,BV,L,bV=n[48],b(-40178),b(-40139),2 z=v(CV,N,bV,L,BV,w)z,bV,L,BV,w=nil,nil,nil,nil,nil S=f(S)S=nil RV=f(RV)RV=nil wV=f(wV)wV=nil R=nil R=nil sV=f(sV)sV=nil OV=f(OV)OV=nil rV=f(rV)rV=nil CV=nil CV=nil U=O()I=nil else U=O(S)S=nil I=nil end else if 5274439>I then bV=4 z=#wV rV=z>bV bV,z=nil,nil CV=rV rV=nil I=6933162 else z=#wV bV=100 rV=z<bV bV,z=nil,nil CV=rV rV=nil I=6715158 end end end else if I>6415613 then if 6658051.5>I then if 6464340.5>I then I=R and 10911952 or 14288413 R=nil elseif I<6555753 then S,RV,wV=r[1],r[2],n[56]R=N[wV]wV=nil wV=n[1]sV=R[wV]R,wV=nil,nil wV=16 R=v(sV,N,S,wV)sV,wV=nil,nil CV=n[56]wV=N[CV]CV=nil CV=n[7]sV=wV[CV]wV,CV=nil,nil CV=65535 wV=v(sV,N,S,CV)sV,CV=nil,nil sV=wV*RV z=n[56]rV=N[z]z=nil z=n[65]OV=rV[z]rV,z=nil,nil L=n[56]bV=N[L]L=nil L=n[7]z=bV[L]bV,L=nil,nil BV=65535 L=R*RV bV=v(z,N,L,BV)z,L,BV=nil,nil,nil z=16 rV=v(OV,N,bV,z)OV,bV,z=nil,nil,nil CV=sV+rV rV=nil sV=CV CV=nil rV=n[56]OV=N[rV]rV=nil rV=n[7]CV=OV[rV]OV,rV=nil,nil rV=4294967295 OV=O(v(CV,N,sV,rV))CV,rV=nil,nil U=O(i(OV))OV=nil I=nil else D[B[1]]=S S=nil I=nil U=O()end else if I<6700365 then RV=D[B[2]]CV=v(RV,N)RV,CV=nil,nil I=nil U=O()else I=OV OV=nil sV=CV CV=nil I=1575483 end end else if I<6244211.5 then if 5628617>I then I=sV and 5683770 or 1784193 elseif I<5900006 then IV=w/wV hV=v(sV,N,IV)hV,IV=nil,nil I=1784193 else R=n[48]sV=RV==R R=nil S=sV sV=nil I=3883866 end else if I<6377850.5 then zV,BV=not FV,P+BV w=eV>=BV w=zV and w zV=BV>=eV zV=FV and zV w=zV or w zV=nil zV=14675212 I=w and zV zV,w=nil,nil w=606734 I=I or w w=nil else w=D[B[5]]OV,L,P=nil,I,n[46]eV=z[P]P=nil BV=w[eV]w,eV=nil,nil bV,I=BV,BV and 6977361 or 8028491 BV=nil end end end end else if I<7103695.5 then if I<6934672 then if I>6863798 then if 6932588.5>I then bV,w=I,n[75]BV=N[w]w=nil P=n[59]eV=z[P]P=nil w=v(BV,N,eV)BV,eV=nil,nil BV=n[25]L=w==BV BV,w=nil,nil I,OV=L and 12343134 or 3190734,L L=nil else I=OV OV=nil S=CV CV=nil I=7904456 end else if 6761466>I then w=nil w=nil gV=nil gV=nil zV=nil zV=nil I=6372181 elseif 6780743>I then I=zV zV=nil IV,zV=n[42],b(-40220)hV=N[IV]IV=nil IV=n[55]gV=hV[IV]hV,IV=nil,nil hV=v(gV,N)gV=nil OV={[rV]=S;[z]=bV;[L]=BV,[w]=eV;[P]=FV;[zV]=hV}rV,bV,z,BV,L,eV,w,FV,P,hV,zV=nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil CV[RV]=OV CV,RV,OV=nil,nil,nil CV=n[33]RV=N[CV]CV=nil CV=v(RV,N)RV=nil OV,RV=b(-40119),n[8]CV[RV]=OV CV,RV,OV=nil,nil,nil RV=D[B[3]]rV=n[59]OV=sV[rV]rV=nil CV=v(RV,N,OV)RV,CV,OV=nil,nil,nil S=nil S=nil sV=nil sV=nil R=nil R=nil wV=nil wV=nil I=nil U=O()else RV=D[B[1]]CV,z=n[71],n[78]rV=N[z]R,S=n[91],r[1]z=nil z=n[47]OV=rV[z]rV,z=nil,nil z=0 rV=v(OV,N,z,S)OV,z=nil,nil wV={[CV]=rV}rV,CV=nil,nil sV=O(v(RV,N,R,wV))RV,R,wV=nil,nil,nil U=O(i(sV))sV=nil I=nil end end else if I>7079388 then if 7099619.5>I then sV=sV+CV R,rV=sV<=wV,not OV R=rV and R rV=wV<=sV rV=OV and rV R=rV or R rV=nil rV=1088982 I=R and rV rV,R=nil,nil R=14342453 I=I or R R=nil else P,OV,L=n[56],CV,wV eV=N[P]BV=OV P=nil P=n[39]w=eV[P]eV,P=nil,nil NV,nV=1,n[53]P=S[OV]YV=n[53]FV=D[B[1]]vV=OV-NV IV=n[53]NV=nil T=YV..vV vV,YV=nil,nil HV=R..T T=nil a=nV..HV HV,nV=nil,nil K=sV..a a=nil hV=IV..K K,IV=nil,nil gV=RV..hV hV=nil zV=O(v(FV,N,gV))FV,gV=nil,nil eV=v(w,N,P,i(zV))w,P,zV=nil,nil,nil L[BV]=eV L,BV,eV=nil,nil,nil OV=nil OV=nil I=12604233 end else if 6956771.5>I then rV,bV,z,CV=nil,nil,nil,nil U=O(wV)I=nil elseif 7020244.5>I then I=L L=nil BV=n[46]L=z[BV]BV=nil U=O(OV,bV,L)OV,bV,L=nil,nil,nil I=nil else RV=n[45]S=N[RV]RV=nil R=n[15]sV=D[B[1]]R=S[R]RV=O(v(R,N,S,sV))R,S,sV=nil,nil,nil U=O(i(RV))RV=nil I=nil end end end else if I<7726756.5 then if I<7287447 then if I<7146245 then R=b(-40126)sV=N[R]R=nil wV=n[34]R=v(sV,N,wV)sV,wV=nil,nil RV=not R R=nil S=RV RV=nil I=10416594 elseif I<7211060 then I=wV wV=nil S=R R=nil I=14830981 else OV=D[B[9]]CV=OV OV=nil I=11236818 end else if I<7465999 then I=nil U=O(z)else wV=D[B[2]]R=wV wV=nil I=14946045 end end else if I<7966473.5 then if 7883002.5>I then S,sV=r[1],n[95]RV=S or sV sV=nil sV=b(-40251)sV=RV[sV]sV=v(sV,N,RV)RV=nil R,wV,RV=n[22],n[95],n[21]RV=sV[RV]RV=v(RV,N,sV,R,wV)sV,R,wV=nil,nil,nil sV=D[B[1]]R=v(sV,N)sV=nil OV=b(-40230)wV=D[B[2]]bV=n[13]z=D[B[3]]bV=z[bV]bV=v(bV,N,z,RV)z=nil L,eV=b(-40238),n[13]w=D[B[3]]eV=w[eV]eV=v(eV,N,w,R)w=nil K=n[6]zV=D[B[3]]P=b(-40242)IV=D[B[4]]hV=IV[K]IV,K=nil,nil gV=n[13]gV=zV[gV]gV=v(gV,N,zV,hV)zV,hV=nil,nil a,hV=n[79],b(-40233)K=N[a]a=nil HV=D[B[4]]T=n[51]nV=HV[T]HV,T=nil,nil a=v(K,N,nV)K,nV=nil,nil YV=n[79]T=N[YV]nV=b(-40104)YV=nil yV=n[42]NV=N[yV]yV=nil yV=n[55]vV=NV[yV]NV,yV=nil,nil NV=O(v(vV,N))vV=nil YV=v(T,N,i(NV))T,NV=nil,nil vV=n[79]T=N[vV]vV=nil E=n[28]yV=N[E]E=nil E=n[49]NV=yV[E]yV,E=nil,nil GV,E=9999,1000 yV=O(v(NV,N,E,GV))NV,E,GV=nil,nil,nil vV=v(T,N,i(yV))T,yV=nil,nil HV=YV..vV vV,YV=nil,nil K=nV..HV HV,nV=nil,nil IV=a..K K,a=nil,nil zV=hV..IV IV,hV=nil,nil FV=gV..zV zV,gV=nil,nil w=P..FV FV,P=nil,nil BV=eV..w w,eV=nil,nil z=L..BV BV,L=nil,nil rV=bV..z z,bV=nil,nil CV=OV..rV rV,OV=nil,nil sV=wV..CV CV,wV=nil,nil wV=m()D[wV]=sV sV=nil CV=n[2]sV=N[CV]CV=nil rV=Z(7063128,{wV},N)z={v(sV,N,rV)}OV,CV=z[2],z[1]z,sV,rV=nil,nil,nil sV=m()D[sV]=OV OV=nil rV,z=I,not CV I,OV=z and 51145 or 8537925,z z=nil elseif I<7903741 then S=RV D[B[1]]=S S=nil I=11804010 else I=S and 4155132 or 2995061 S=nil end else if I<8105144.5 then P=b(-40190)eV=z[P]w=I P=nil P=n[37]BV=eV or P w,eV,P=nil,nil,nil bV=BV BV=nil I=6977361 else CV=n[33]RV=N[CV]CV=nil CV=v(RV,N)RV=nil z,L=n[20],n[20]bV=sV[L]RV,rV=n[38],b(-40151)L=nil w=n[62]BV=sV[w]L=n[62]w=nil FV,w=n[94],n[18]P=N[FV]FV=nil gV=n[18]zV=sV[gV]gV=nil FV=v(P,N,zV)P,zV=nil,nil P=0 eV=FV or P FV,P=nil,nil P,hV,zV=b(-40107),n[94],I gV=N[hV]hV=nil K=b(-40110)IV=sV[K]K=nil hV=v(gV,N,IV)gV,IV=nil,nil I,FV=hV and 6765905 or 8342750,hV hV=nil end end end end end end end end I=#s return i(U)end,function(I)local b,n=1,I[1]while n do z[n],b=z[n]-1,b+1 if z[n]==0 then z[n],D[n]=nil,nil end n=I[b]end end,function(I,b,r)local B=w(b)local s=function(s,Y,g,N,S,F)return C(I,{s,Y;g,N,S,F,[n[82]]=6},b,B,e and e(1)or r)end if F then F(s,r)end return s end,function(I,b,r)local B=w(b)local s=function(s)return C(I,{s;[n[82]]=1},b,B,e and e(1)or r)end if F then F(s,r)end return s end,function(I,b,r)local B=w(b)local s=function(s,Y,g)return C(I,{s,Y,g,[n[82]]=3},b,B,e and e(1)or r)end if F then F(s,r)end return s end,function(I,b,r)local B=w(b)local s=function(s,Y,g,N,S)return C(I,{s,Y;g,N,S,[n[82]]=5},b,B,e and e(1)or r)end if F then F(s,r)end return s end,function(I,b,r)local B=w(b)local s=function(s,Y,g,N)return C(I,{s,Y;g;N;[n[82]]=4},b,B,e and e(1)or r)end if F then F(s,r)end return s end return(H(11202130,{},N))(i(r))end)(getmetatable,{[n[82]]=select(n[84],...);...},unpack or table[b(-40086)],select,tonumber,error,getfenv and getfenv()or _ENV,getfenv,newproxy,setfenv,setmetatable)end)(...)
+local DATA_URL = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/AxiomHUB.dat"
+local ASSET_URL = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/assets/"
+local GAMES = {
+	-- Criminality (main + VIP/private places + universe handled below)
+	[4588604953] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/crim.dat",
+	[8343259840] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/crim.dat",
+	[15169303036] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/crim.dat",
+	[15169306359] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/crim.dat",
+	[15169310267] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/crim.dat",
+	[15169316384] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/crim.dat",
+	-- Murder Mystery 2
+	[142823291] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/mm2.dat",
+	-- Slayers 2 (menu, Ouwland, Ouwigahara)
+	[16205713724] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/slayers.dat",
+	[136406881576517] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/slayers.dat",
+	[75556147183481] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/slayers.dat",
+	-- Project Lazarus
+	[443406476] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/443406476.dat",
+}
+local GAME_UNIVERSES = {
+	[1494262959] = "https://raw.githubusercontent.com/oTheShad4w/Axiomus/main/crim.dat", -- Criminality universe -> all Crim places
+}
+local SERVER = "https://axiomhub-keys.kingofdarknesscer757.workers.dev"
+local DISCORD = "https://discord.gg/KzsMYUxVyd"
+local KEY_FILE = "AxiomHUB/key.txt"
+
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local HttpService = game:GetService("HttpService")
+local Lighting = game:GetService("Lighting")
+local player = Players.LocalPlayer
+local function decrypt(hex, m, progress)
+	local n = math.floor(#hex / 2)
+	local hb = buffer.fromstring(hex)
+	local out = buffer.create(n)
+	local lut = {}
+	for i = 0, 9 do lut[48 + i] = i end
+	for i = 0, 5 do lut[65 + i] = 10 + i lut[97 + i] = 10 + i end
+	local x, y, z, w = m[1], m[2], m[3], m[4]
+	for i = 0, n - 1 do
+		local t = bit32.bxor(x, bit32.lshift(x, 11))
+		x, y, z = y, z, w
+		w = bit32.bxor(bit32.bxor(w, bit32.rshift(w, 19)), bit32.bxor(t, bit32.rshift(t, 8)))
+		local b = lut[buffer.readu8(hb, i * 2)] * 16 + lut[buffer.readu8(hb, i * 2 + 1)]
+		buffer.writeu8(out, i, bit32.bxor(b, bit32.band(w, 255)))
+		if i % 60000 == 0 then
+			if progress then progress(i / n) end
+			task.wait()
+		end
+	end
+	return buffer.tostring(out)
+end
+
+local function readSaved()
+	local ok, v = pcall(function() return isfile and isfile(KEY_FILE) and readfile(KEY_FILE) end)
+	return ok and type(v) == "string" and v:gsub("%s", "") ~= "" and v:gsub("%s", "") or nil
+end
+local function save(key)
+	pcall(function()
+		if makefolder and not isfolder("AxiomHUB") then makefolder("AxiomHUB") end
+		writefile(KEY_FILE, key)
+	end)
+end
+local function forget()
+	pcall(function() if isfile(KEY_FILE) then delfile(KEY_FILE) end end)
+end
+
+local function hwid()
+	local ok, h = pcall(function() return gethwid and gethwid() end)
+	if ok and type(h) == "string" and #h > 4 then return h end
+	local ok2, c = pcall(function() return game:GetService("RbxAnalyticsService"):GetClientId() end)
+	if ok2 and type(c) == "string" and #c > 4 then return c end
+	return "uid-" .. tostring(player.UserId)
+end
+
+local ERRORS = {
+	invalid = "Invalid key",
+	banned = "This key was disabled",
+	hwid = "This key is locked to another device. Ask for an HWID reset on Discord",
+	expired = "This key has expired. Get a new one on Discord",
+	nodiscord = "Join our Discord server to use AxiomHUB: " .. DISCORD,
+}
+
+local function imul(a, b)
+	local a16 = bit32.rshift(a, 16)
+	local a00 = bit32.band(a, 0xffff)
+	local r = a00 * b
+	r = r + bit32.lshift(bit32.band(a16 * b, 0xffff), 16)
+	return bit32.band(r, 0xffffffff)
+end
+local function fnv1a(s)
+	local h = 2166136261
+	for i = 1, #s do
+		h = bit32.bxor(h, string.byte(s, i))
+		h = imul(h, 16777619)
+	end
+	return h
+end
+local function unwrapMaster(mw, h, k, nonce)
+	local m = {}
+	for i = 1, 4 do
+		m[i] = bit32.bxor(mw[i], fnv1a(h .. "|" .. k .. "|" .. nonce .. "|" .. (i - 1)))
+	end
+	return m
+end
+local function check(key)
+	local nk = (key or ""):upper():gsub("%s", "")
+	local h = hwid()
+	local url = SERVER .. "/check?key=" .. HttpService:UrlEncode(nk) .. "&hwid=" .. HttpService:UrlEncode(h) .. "&rbx=" .. HttpService:UrlEncode(player.Name) .. "&rid=" .. tostring(player.UserId) .. "&t=" .. tostring(os.time()) .. tostring(math.random(1000, 9999))
+	local ok, body = pcall(function() return game:HttpGet(url) end)
+	if not ok or type(body) ~= "string" then return nil, "Can't reach the key server" end
+	local ok2, res = pcall(function() return HttpService:JSONDecode(body) end)
+	if not ok2 or type(res) ~= "table" then return nil, "Can't reach the key server" end
+	if not res.ok then return nil, ERRORS[res.code] or res.error or "Invalid key", res.code end
+	if type(res.m) == "table" and res.nonce then
+		res.m = unwrapMaster(res.m, h, nk, res.nonce)
+	end
+	return res
+end
+
+local ACCENT = Color3.fromRGB(124, 92, 255)
+local ACCENT2 = Color3.fromRGB(190, 120, 255)
+local BG = Color3.fromRGB(13, 12, 18)
+local PANEL = Color3.fromRGB(20, 18, 28)
+local EL = Color3.fromRGB(26, 24, 36)
+local LINE = Color3.fromRGB(52, 48, 70)
+local TXT = Color3.fromRGB(236, 234, 245)
+local SUB = Color3.fromRGB(150, 145, 170)
+local RED = Color3.fromRGB(255, 105, 115)
+local GREEN = Color3.fromRGB(110, 230, 160)
+local FONT = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium)
+local FONT_B = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold)
+
+local function make(class, props, kids)
+	local o = Instance.new(class)
+	for k, v in pairs(props or {}) do if k ~= "Parent" then o[k] = v end end
+	for _, k in ipairs(kids or {}) do k.Parent = o end
+	if props and props.Parent then o.Parent = props.Parent end
+	return o
+end
+local function corner(r) return make("UICorner", {CornerRadius = UDim.new(0, r)}) end
+local function tw(o, p, t, s) local x = TweenService:Create(o, TweenInfo.new(t or 0.35, s or Enum.EasingStyle.Quint, Enum.EasingDirection.Out), p) x:Play() return x end
+local function asset(name)
+	if not (getcustomasset and writefile and isfile) then return nil end
+	local path = "AxiomHUB/" .. name
+	if not isfile(path) then
+		local ok, data = pcall(function() return game:HttpGet(ASSET_URL .. name) end)
+		if not ok or type(data) ~= "string" or #data < 1000 then return nil end
+		pcall(makefolder, "AxiomHUB")
+		pcall(writefile, path, data)
+	end
+	local ok, id = pcall(getcustomasset, path)
+	return ok and id or nil
+end
+
+local parent = (gethui and gethui()) or game:GetService("CoreGui")
+pcall(function() local old = parent:FindFirstChild("AxiomKey") if old then old:Destroy() end end)
+pcall(function() for _, b in ipairs(Lighting:GetChildren()) do if b.Name == "AxiomKeyBlur" then b:Destroy() end end end)
+local gui = make("ScreenGui", {Name = "AxiomKey", ResetOnSpawn = false, IgnoreGuiInset = true, ZIndexBehavior = Enum.ZIndexBehavior.Sibling, DisplayOrder = 999, Parent = parent})
+local blur = make("BlurEffect", {Name = "AxiomKeyBlur", Size = 0, Parent = Lighting})
+tw(blur, {Size = 14}, 0.6)
+local fade = make("Frame", {Parent = gui, Size = UDim2.fromScale(1, 1), BackgroundColor3 = Color3.new(0, 0, 0), BackgroundTransparency = 1, BorderSizePixel = 0})
+tw(fade, {BackgroundTransparency = 0.5}, 0.5)
+
+local W, H = 400, 330
+local card = make("CanvasGroup", {Parent = gui, AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.fromScale(0.5, 0.55), Size = UDim2.fromOffset(W, H), BackgroundColor3 = BG, GroupTransparency = 1, BorderSizePixel = 0}, {corner(16)})
+local scale = make("UIScale", {Parent = card, Scale = 0.94})
+local outline = make("Frame", {Parent = gui, AnchorPoint = Vector2.new(0.5, 0.5), Position = card.Position, Size = card.Size, BackgroundTransparency = 1}, {corner(16)})
+local ostroke = make("UIStroke", {Parent = outline, Color = Color3.new(1, 1, 1), Thickness = 1.4, Transparency = 1})
+local ograd = make("UIGradient", {Parent = ostroke, Color = ColorSequence.new({ColorSequenceKeypoint.new(0, ACCENT), ColorSequenceKeypoint.new(0.5, Color3.fromRGB(40, 36, 60)), ColorSequenceKeypoint.new(1, ACCENT2)})})
+local oscale = make("UIScale", {Parent = outline, Scale = 0.94})
+task.spawn(function() while gui.Parent do ograd.Rotation = (ograd.Rotation + 1.5) % 360 task.wait() end end)
+tw(card, {Position = UDim2.fromScale(0.5, 0.5), GroupTransparency = 0}, 0.6, Enum.EasingStyle.Quint)
+tw(outline, {Position = UDim2.fromScale(0.5, 0.5)}, 0.6, Enum.EasingStyle.Quint)
+tw(scale, {Scale = 1}, 0.6, Enum.EasingStyle.Back)
+tw(oscale, {Scale = 1}, 0.6, Enum.EasingStyle.Back)
+tw(ostroke, {Transparency = 0.15}, 0.6)
+
+local X = 26
+local mark = make("Frame", {Parent = card, Position = UDim2.fromOffset(X + 4, 34), Size = UDim2.fromOffset(22, 22), Rotation = 45, BackgroundColor3 = ACCENT}, {corner(5)})
+make("Frame", {Parent = mark, AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromOffset(8, 8), BackgroundColor3 = BG}, {corner(2)})
+make("TextLabel", {Parent = card, Position = UDim2.fromOffset(X + 38, 30), Size = UDim2.fromOffset(240, 30), BackgroundTransparency = 1, RichText = true, Text = 'Axiom<font color="#9C7CFF">HUB</font>', FontFace = FONT_B, TextSize = 24, TextColor3 = TXT, TextXAlignment = Enum.TextXAlignment.Left})
+local subtitle = make("TextLabel", {Parent = card, Position = UDim2.fromOffset(X, 72), Size = UDim2.fromOffset(W - X - 26, 18), BackgroundTransparency = 1, Text = "Enter your key to continue", FontFace = FONT, TextSize = 13, TextColor3 = SUB, TextXAlignment = Enum.TextXAlignment.Left})
+
+local field = make("Frame", {Parent = card, Position = UDim2.fromOffset(X, 104), Size = UDim2.fromOffset(W - X - 26, 46), BackgroundColor3 = EL, BorderSizePixel = 0}, {corner(10)})
+local fstroke = make("UIStroke", {Parent = field, Color = LINE, Thickness = 1.2})
+local kr = make("Frame", {Parent = field, Position = UDim2.fromOffset(15, 17), Size = UDim2.fromOffset(10, 10), BackgroundTransparency = 1}, {make("UICorner", {CornerRadius = UDim.new(1, 0)})})
+local krs = make("UIStroke", {Parent = kr, Color = SUB, Thickness = 2})
+local kb = make("Frame", {Parent = field, Position = UDim2.fromOffset(24, 21), Size = UDim2.fromOffset(10, 2), BackgroundColor3 = SUB, BorderSizePixel = 0})
+local kt = make("Frame", {Parent = field, Position = UDim2.fromOffset(31, 21), Size = UDim2.fromOffset(2, 6), BackgroundColor3 = SUB, BorderSizePixel = 0})
+local box = make("TextBox", {Parent = field, Position = UDim2.fromOffset(44, 0), Size = UDim2.new(1, -54, 1, 0), BackgroundTransparency = 1, Text = "", PlaceholderText = "AXM-XXXX-XXXX-XXXX", PlaceholderColor3 = Color3.fromRGB(95, 90, 115), TextColor3 = TXT, FontFace = FONT_B, TextSize = 15, ClearTextOnFocus = false, TextXAlignment = Enum.TextXAlignment.Left})
+local function fieldColor(c)
+	tw(fstroke, {Color = c}, 0.2) tw(krs, {Color = c}, 0.2) tw(kb, {BackgroundColor3 = c}, 0.2) tw(kt, {BackgroundColor3 = c}, 0.2)
+end
+box.Focused:Connect(function() fieldColor(ACCENT) end)
+box.FocusLost:Connect(function() fieldColor(LINE) krs.Color = SUB kb.BackgroundColor3 = SUB kt.BackgroundColor3 = SUB end)
+
+local btn = make("TextButton", {Parent = card, Position = UDim2.fromOffset(X, 162), Size = UDim2.fromOffset(W - X - 26, 44), BackgroundColor3 = Color3.new(1, 1, 1), Text = "", AutoButtonColor = false, BorderSizePixel = 0, ClipsDescendants = true}, {corner(10)})
+make("UIGradient", {Parent = btn, Color = ColorSequence.new(ACCENT, ACCENT2)})
+local btnText = make("TextLabel", {Parent = btn, Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, Text = "Unlock", FontFace = FONT_B, TextSize = 15, TextColor3 = Color3.new(1, 1, 1), ZIndex = 3})
+local shine = make("Frame", {Parent = btn, Size = UDim2.fromScale(1, 1), BackgroundColor3 = Color3.new(1, 1, 1), BorderSizePixel = 0, ZIndex = 2})
+local sg = make("UIGradient", {Parent = shine, Rotation = 20, Offset = Vector2.new(-1, 0), Transparency = NumberSequence.new({NumberSequenceKeypoint.new(0, 1), NumberSequenceKeypoint.new(0.42, 1), NumberSequenceKeypoint.new(0.5, 0.55), NumberSequenceKeypoint.new(0.58, 1), NumberSequenceKeypoint.new(1, 1)})})
+task.spawn(function()
+	while gui.Parent do
+		sg.Offset = Vector2.new(-1, 0)
+		tw(sg, {Offset = Vector2.new(1, 0)}, 1.2, Enum.EasingStyle.Sine)
+		task.wait(3.2)
+	end
+end)
+local bscale = make("UIScale", {Parent = btn})
+btn.MouseEnter:Connect(function() tw(bscale, {Scale = 1.02}, 0.2) end)
+btn.MouseLeave:Connect(function() tw(bscale, {Scale = 1}, 0.2) end)
+
+local getBtn = make("TextButton", {Parent = card, Position = UDim2.fromOffset(X, 216), Size = UDim2.fromOffset(W - X - 26, 36), BackgroundColor3 = EL, BackgroundTransparency = 0.4, Text = "Get a key on Discord", FontFace = FONT_B, TextSize = 13, TextColor3 = SUB, AutoButtonColor = false, BorderSizePixel = 0}, {corner(10)})
+local gstroke = make("UIStroke", {Parent = getBtn, Color = LINE, Thickness = 1})
+getBtn.MouseEnter:Connect(function() tw(gstroke, {Color = ACCENT}, 0.2) tw(getBtn, {TextColor3 = TXT}, 0.2) end)
+getBtn.MouseLeave:Connect(function() tw(gstroke, {Color = LINE}, 0.2) tw(getBtn, {TextColor3 = SUB}, 0.2) end)
+
+local barBg = make("Frame", {Parent = card, Position = UDim2.fromOffset(X, 268), Size = UDim2.fromOffset(W - X - 26, 3), BackgroundColor3 = EL, BorderSizePixel = 0}, {corner(2)})
+local bar = make("Frame", {Parent = barBg, Size = UDim2.fromScale(0, 1), BackgroundColor3 = Color3.new(1, 1, 1), BorderSizePixel = 0}, {corner(2)})
+make("UIGradient", {Parent = bar, Color = ColorSequence.new(ACCENT, ACCENT2)})
+local status = make("TextLabel", {Parent = card, Position = UDim2.fromOffset(X, 278), Size = UDim2.fromOffset(W - X - 26, 18), BackgroundTransparency = 1, Text = "", FontFace = FONT, TextSize = 12, TextColor3 = SUB, TextXAlignment = Enum.TextXAlignment.Left})
+make("TextLabel", {Parent = card, Position = UDim2.fromOffset(X, H - 30), Size = UDim2.fromOffset(W - X - 26, 16), BackgroundTransparency = 1, Text = "by kingping77", FontFace = FONT, TextSize = 11, TextColor3 = Color3.fromRGB(80, 76, 100), TextXAlignment = Enum.TextXAlignment.Right})
+
+local closeBtn = make("TextButton", {Parent = card, AnchorPoint = Vector2.new(1, 0), Position = UDim2.fromOffset(W - 8, 8), Size = UDim2.fromOffset(22, 22), BackgroundTransparency = 1, Text = "×", FontFace = FONT_B, TextSize = 18, TextColor3 = SUB})
+
+local function say(text, color)
+	status.Text = text
+	status.TextColor3 = color or SUB
+end
+local function shake()
+	fieldColor(RED)
+	local p = card.Position
+	for _, dx in ipairs({-10, 10, -6, 6, -2, 0}) do
+		card.Position = p + UDim2.fromOffset(dx, 0)
+		outline.Position = card.Position
+		task.wait(0.04)
+	end
+	task.delay(0.8, function() if not box:IsFocused() then fieldColor(LINE) end end)
+end
+
+local function closeUI(instant)
+	tw(blur, {Size = 0}, 0.35)
+	tw(fade, {BackgroundTransparency = 1}, 0.35)
+	tw(card, {GroupTransparency = 1, Position = UDim2.fromScale(0.5, 0.46)}, 0.35)
+	tw(ostroke, {Transparency = 1}, 0.3)
+	task.delay(instant and 0 or 0.4, function() gui:Destroy() blur:Destroy() end)
+end
+closeBtn.MouseButton1Click:Connect(function() closeUI() end)
+
+getBtn.MouseButton1Click:Connect(function()
+	if setclipboard then pcall(setclipboard, DISCORD) say("Discord invite copied, paste it in your browser", GREEN)
+	else say(DISCORD, TXT) end
+end)
+
+local function start(m)
+	say("Downloading…")
+	local src_url = GAMES[game.PlaceId] or GAME_UNIVERSES[game.GameId] or DATA_URL
+	local okH, hex = pcall(function() return game:HttpGet(src_url .. "?t=" .. tostring(os.time()) .. tostring(math.random(1000, 9999))) end)
+	if not okH or type(hex) ~= "string" or #hex < 100 then say("Couldn't download the script", RED) return false end
+	say("Unlocking…")
+	local src = decrypt(hex, m, function(p) bar.Size = UDim2.fromScale(p, 1) end)
+	local fn, err = loadstring(src)
+	if not fn then say("Bad build: " .. tostring(err):sub(1, 60), RED) return false end
+	bar.Size = UDim2.fromScale(1, 1)
+	say("Welcome back", GREEN)
+	task.wait(0.35)
+	closeUI()
+	task.spawn(fn)
+	return true
+end
+
+local AUTO_KEY = false
+local DIRECT = {[4588604953] = true, [8343259840] = true, [15169303036] = true, [15169306359] = true, [15169310267] = true, [15169316384] = true, [142823291] = true, [443406476] = true}
+local DIRECT_GAMES = {[1494262959] = true}
+local function choose(m)
+	if DIRECT[game.PlaceId] or DIRECT_GAMES[game.GameId] then start(m) return end
+	if AUTO_KEY then
+		local ok, mode = pcall(function() return isfile and isfile("AxiomHUB/version.txt") and readfile("AxiomHUB/version.txt") end)
+		if ok and (mode == "Simple" or mode == "Pro") then getgenv().AxiomUIMode = mode start(m) return end
+	end
+	for _, o in ipairs({field, btn, getBtn}) do o.Visible = false end
+	subtitle.Text = "Pick your version"
+	local picked = false
+	local function option(i, title, desc, mode)
+		local bw = (W - X - 26 - 12) / 2
+		local b = make("TextButton", {Parent = card, Position = UDim2.fromOffset(X + (i - 1) * (bw + 12), 104), Size = UDim2.fromOffset(bw, 148), BackgroundColor3 = EL, Text = "", AutoButtonColor = false}, {corner(12)})
+		local st = make("UIStroke", {Parent = b, Color = LINE, Thickness = 1.2})
+		make("TextLabel", {Parent = b, Position = UDim2.fromOffset(14, 16), Size = UDim2.new(1, -28, 0, 20), BackgroundTransparency = 1, Text = title, FontFace = FONT_B, TextSize = 16, TextColor3 = TXT, TextXAlignment = Enum.TextXAlignment.Left})
+		make("TextLabel", {Parent = b, Position = UDim2.fromOffset(14, 44), Size = UDim2.new(1, -28, 0, 90), BackgroundTransparency = 1, Text = desc, FontFace = FONT, TextSize = 12, TextColor3 = SUB, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left, TextYAlignment = Enum.TextYAlignment.Top})
+		b.MouseEnter:Connect(function() tw(st, {Color = ACCENT}, 0.15) end)
+		b.MouseLeave:Connect(function() tw(st, {Color = LINE}, 0.15) end)
+		b.MouseButton1Click:Connect(function()
+			if picked then return end
+			picked = true
+			getgenv().AxiomUIMode = mode
+			pcall(writefile, "AxiomHUB/version.txt", mode)
+			start(m)
+		end)
+	end
+	option(1, "Simple", "Turn it on and go. Best settings already set.", "Simple")
+	option(2, "Advanced", "Every slider: cooldowns, priority, heal, block.", "Pro")
+end
+
+local busy = false
+local function try(key, silent)
+	if busy then return end
+	key = tostring(key or ""):upper():gsub("%s", "")
+	if key == "" then say("Paste your key first", RED) shake() return end
+	busy = true
+	btnText.Text = "Checking…"
+	say("Checking your key…")
+	local res, err, code = check(key)
+	btnText.Text = "Unlock"
+	if not res then
+		busy = false
+		if code then forget() end
+		say(err, RED)
+		if not silent then shake() end
+		return
+	end
+	save(key)
+	getgenv().AxiomKeyInfo = {key = key, plan = res.plan, planName = res.planName, exp = tonumber(res.exp) or 0, serverNow = tonumber(res.now) or os.time(), localNow = os.time()}
+	fieldColor(GREEN)
+	choose(res.m)
+end
+btn.MouseButton1Click:Connect(function() try(box.Text) end)
+box.FocusLost:Connect(function(enter) if enter then try(box.Text) end end)
+
+local function scriptKey()
+	local k
+	pcall(function() k = (getgenv and getgenv().script_key) or rawget(_G, "script_key") or script_key end)
+	k = tostring(k or ""):gsub("%s", "")
+	if #k >= 6 then return k end
+	return nil
+end
+local preset = scriptKey()
+if preset then AUTO_KEY = true end
+local saved = preset or readSaved()
+if saved then
+	box.Text = saved
+	task.delay(0.5, function() try(saved, true) end)
+end
